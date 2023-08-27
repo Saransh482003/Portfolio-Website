@@ -55,5 +55,5 @@
 .mypic{
     width: 80%;
     height: 90%;
-    filter: grayscale(100%);
+    filter: grayscale(100%) drop-shadow(19px 6px 100px rgb(94, 94, 94));
 }

@@ -81,6 +81,9 @@ export default function Home() {
           <Image src="/mypic.png" width={800} height={898} className={styler.mypic}></Image>
         </div>
       </section>
+      <section className={styler.menu}>
+        
+      </section>
     </>
   )
 }
