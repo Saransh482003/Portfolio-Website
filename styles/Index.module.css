@@ -12,8 +12,11 @@
     /* background-color: aqua; */
 }
 .pic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 40%;
-    background-color: blue;
+    background-color: white;
 }
 .iam{
     font-size: 25px;
@@ -36,4 +39,21 @@
     font-size: 25px;
     margin-left: 5px;
     color: #990000;
+}
+.intro{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.wel{
+    margin-left: 5px;
+    margin-top: 7px;
+    font-size: 20px;
+
+    color: rgb(248, 132, 0);
+    font-weight:500;
+}
+.mypic{
+    width: 80%;
+    height: 90%;
+    filter: grayscale(100%);
 }
