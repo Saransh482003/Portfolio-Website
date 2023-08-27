@@ -5,6 +5,7 @@ import styles from '@/styles/Home.module.css'
 import Navbar from '@/Components/navbar'
 import styler from "../styles/Index.module.css"
 import { useEffect, useState } from 'react'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 const skills = ["Python", "Java", "JavaScript", "Machine Learning", "Deep Learning", "DSA", "Android App Development", "Full Stack Development"]
@@ -29,7 +30,7 @@ export default function Home() {
         setInd(ind + 1)
         setChar(char.concat(skill.charAt(ind)))
       }
-    },50)
+    }, 50)
     return () => {
       clearInterval(charCounter)
     }
@@ -46,7 +47,7 @@ export default function Home() {
       if (flag) {
         setChar(char.slice(0, -1))
       }
-    },25)
+    }, 25)
     return () => {
       clearInterval(decChar)
     }
@@ -81,9 +82,57 @@ export default function Home() {
           <Image src="/mypic.png" width={800} height={898} className={styler.mypic}></Image>
         </div>
       </section>
+      {/* <hr></hr> */}
       <section className={styler.menu}>
-        
+        <h1 className={styler.guide}>Exploration Guide</h1>
+        <div className={styler.guide_body}>
+
+          <div className={styler.card}>
+            <Image src="/Home Cards/about.jpg" width={1076} height={917} className={styler.cardImg}></Image>
+            <div className={styler.cardInfo}>
+              <p className={styler.infoHead}>ABOUT ME</p>
+              <p className={styler.infoDesc}>Step into my world of curiosity and exploration. Discover my journey as a devoted Data Science enthusiast, and unravel the layers of my educational pursuits, leadership experiences, and innovative projects!</p>
+            </div>
+            <Link href="/about" className={styler.goBtn}>
+              <p className={styler.btn}>Explore</p>
+            </Link>
+          </div>
+
+          <div className={styler.card}>
+            <Image src="/Home Cards/learn.jpg" width={1000} height={667} className={styler.cardImg}></Image>
+            <div className={styler.cardInfo}>
+              <p className={styler.infoHead}>LEARN</p>
+              <p className={styler.infoDesc}>Curious about Data Science and Machine Learning? Tune in to "Data Ki Science" for engaging insights and tutorials. Learn Data Science concepts like Machine Learning, Python Programming, and a lot more. Let's explore together!</p>
+            </div>
+            <Link href="/learn" className={styler.goBtn}>
+              <p className={styler.btn}>Explore</p>
+            </Link>
+          </div>
+
+          <div className={styler.card}>
+            <Image src="/Home Cards/blog.jpg" width={1000} height={667} className={styler.cardImg}></Image>
+            <div className={styler.cardInfo}>
+              <p className={styler.infoHead}>BLOGS</p>
+              <p className={styler.infoDesc}>Step into a treasure trove of insights at my blog corner. Uncover articles on Data Science, Machine Learning, and more. Let's explore the fascinating world of tech and knowledge together!</p>
+            </div>
+            <Link href="/blogs" className={styler.goBtn}>
+              <p className={styler.btn}>Explore</p>
+            </Link>
+          </div>
+
+          <div className={styler.card}>
+            <Image src="/Home Cards/projects.jpg" width={1920} height={1080} className={styler.cardImg}></Image>
+            <div className={styler.cardInfo}>
+              <p className={styler.infoHead}>MY PROJECTS</p>
+              <p className={styler.infoDesc}>Discover a fusion of creativity and innovation in my project showcase. From Machine Learning marvels to captivating Web and Android developments, explore the exciting landscapes of my work. Let's journey through the realm of tech and possibilities!</p>
+            </div>
+            <Link href="/projects" className={styler.goBtn}>
+              <p className={styler.btn}>Explore</p>
+            </Link>
+          </div>
+        </div>
       </section>
+
     </>
   )
 }

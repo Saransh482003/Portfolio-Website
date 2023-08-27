@@ -1,7 +1,7 @@
 .section{
     display: flex;
     flex-direction: row;
-    height: 80vh;
+    height: 37rem;
 }
 .welcome{
     width: 60%;
@@ -56,4 +56,70 @@
     width: 80%;
     height: 90%;
     filter: grayscale(100%) drop-shadow(19px 6px 100px rgb(94, 94, 94));
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40rem;
+    align-items: center;
+}
+.guide{
+    font-size: 35px;
+    color: black;
+}
+.guide_body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 20%;
+    height: 80%;
+    /* background-color: transparent; */
+    /* background-color: aqua; */
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px rgb(94, 94, 94);
+    text-align: left;
+}
+.cardImg{
+    height: 35%;
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.cardInfo{
+    height: 50%;
+}
+.infoHead{
+    font-size: 18px;
+    margin:20px;
+    color: rgb(248, 132, 0);
+    /* color: #990000; */
+    font-weight: 600;
+}
+.infoDesc{
+    margin: 20px;
+    margin-top: -10px;
+    font-size: 14px;
+}
+.goBtn{
+    margin-left: 20px;
+    width: 30%;
+    background-color: #990000;
+    border-radius: 30px;
+    text-align: center;
+}
+.btn{
+    color: white;
+    margin: 6px;
+    font-weight: 500;
 }
