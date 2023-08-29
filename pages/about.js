@@ -11,13 +11,17 @@ const about = () => {
       setEducation(JSON.parse(res))
     })
   })
+  useEffect(()=>{
+    let a = document.getElementById("sec")
+    a.style.height = ((230+20)*education.length+100)+"px"
+  })
   return (
     <>
       <section className={styler.about}>
         <p className={styler.head}>ABOUT ME</p>
         <p className={styler.quote}>"Like a quill poised above an open page, my 'About Me' is a journey of discovery, where each word penned and every experience lived adds to the ever-growing narrative of who I am and who I aim to be."</p>
       </section>
-      <section className={styler.edu}>
+      <section className={styler.edu} id="sec">
         <h1 className={styler.eduHead}>Educational Background</h1>
         {
           education.map((edu, ind) => {
@@ -35,7 +39,7 @@ const about = () => {
           })
         }
 
-        <div className={styler.eduCard}>
+        {/* <div className={styler.eduCard}>
           <div className={styler.eduInfo}>
             <p className={styler.eduCardHead}>B.Sc. in Data Analytics</p>
             <p className={styler.eduCardName}>Delhi Skill and Enterpreneurship University</p>
@@ -46,7 +50,7 @@ const about = () => {
           <div className={styler.eduImg}>
             <Image src="/About/Educational Background/IITM.png" height={500} width={500} alt="IITM" className={styler.eduLogo}></Image>
           </div>
-        </div>
+        </div> */}
       </section>
     </>
   )

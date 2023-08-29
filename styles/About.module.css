@@ -23,22 +23,18 @@
     height: 35rem;
     width: 100%;
     align-items: center;
-    /* background-color: aqua; */
 }
 .eduHead{
-    /* height: 20%; */
     margin:20px;
     text-align: center;
-    /* color: #990000; */
     font-size: 30px;
-    /* color: rgb(248, 132, 0); */
 }
 .eduCard{
     display: flex;
     flex-direction: row;
     border-radius: 30px;
     height: 230px;
-    width: 80%;
+    width: 75%;
     box-shadow: 0px 5px 10px rgb(94, 94, 94);
     margin-bottom: 20px;
 }
@@ -48,7 +44,6 @@
 }
 .eduCardHead{
     color:rgb(248, 132, 0);
-    /* color: #990000; */
     font-size: 20px;
     font-weight: 500;
 }
@@ -68,7 +63,7 @@
     justify-content: center;
 }
 .eduLogo{
-    width: 55%;
+    width: auto;
     height: 80%;
     margin: 20px;
 }
