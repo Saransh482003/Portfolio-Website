@@ -1,0 +1,74 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    justify-content: center;
+    background-image: url("../public/Home Cards/about.jpg");
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+}
+.quote{
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 100;
+    margin-top: 20px;
+    width: 70%;
+}
+.edu{
+    display: flex;
+    flex-direction: column;
+    height: 35rem;
+    width: 100%;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.eduHead{
+    /* height: 20%; */
+    margin:20px;
+    text-align: center;
+    /* color: #990000; */
+    font-size: 30px;
+    /* color: rgb(248, 132, 0); */
+}
+.eduCard{
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    height: 230px;
+    width: 80%;
+    box-shadow: 0px 5px 10px rgb(94, 94, 94);
+    margin-bottom: 20px;
+}
+.eduInfo{
+    width: 70%;
+    margin:15px;
+}
+.eduCardHead{
+    color:rgb(248, 132, 0);
+    /* color: #990000; */
+    font-size: 20px;
+    font-weight: 500;
+}
+.eduCardName{
+    color:rgb(107, 107, 107);
+    font-size: 15px;
+}
+.eduCardDesc{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.eduImg{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.eduLogo{
+    width: 55%;
+    height: 80%;
+    margin: 20px;
+}
