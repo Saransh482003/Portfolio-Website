@@ -45,7 +45,6 @@
 .eduCardHead{
     color:rgb(248, 132, 0);
     font-size: 20px;
-    font-weight: 500;
 }
 .eduCardName{
     color:rgb(107, 107, 107);
@@ -66,4 +65,47 @@
     width: auto;
     height: 80%;
     margin: 20px;
+}
+.extra{
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+}
+.extraContainer{
+    height: 80%;
+    width: 100%;
+    margin-top: -10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.extraCard{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 80%;
+    margin: 30px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px rgb(94, 94, 94);
+}
+.extraHead{
+    margin: 20px;
+}
+.extraDesc{
+    margin: 20px;
+    margin-top: -10px;
+}
+.extraImg{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.extraImger{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }

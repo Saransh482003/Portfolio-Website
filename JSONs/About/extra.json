@@ -1,0 +1,17 @@
+[
+    {
+        "head":"Educational Youtube Channel",
+        "description":"I have a YouTube channel where I teach concepts of Data Science which includes Programming Languages like Python, SQL, and Machine Learning concepts as well. I believe that teaching is the best form of learning.",
+        "img":"/About/Extra Curricular/YT.jpg"
+    },
+    {
+        "head":"Code in Place Section Leader",
+        "description":"I volunteered as a Section Leader in Stanford University’s course named Code in Place. It is a course spanning 6 weeks of learning into programming. I was allotted a section of 16 students, from all over the world, to teach Python programming language.",
+        "img":"/About/Extra Curricular/Stanford.jpg"
+    },
+    {
+        "head":"Code Spardha Organiser",
+        "description":"Lead the organizing team of an Online Coding Competition named 'Code Spardha' on 28th May 2022 and it’s second instalment on 7 January 2023. 300+ participants from all over Delhi participated in the competition.",
+        "img":"/About/Extra Curricular/Code Spardha Banner Edited.png"
+    }
+]
