@@ -9,7 +9,7 @@ import Link from 'next/link'
 import { resolve } from 'styled-jsx/css'
 
 const inter = Inter({ subsets: ['latin'] })
-const skills = ['Python', 'Java', 'JavaScript', 'MS Excel', 'MySQL', 'Data Preprocessing', 'DSA', 'Machine Learning', 'Deep Learning', 'Android App Development', 'Full Stack Development']
+const skills = ['Python', 'Java', 'JavaScript', 'MS Excel', 'MySQL', 'Data Preprocessing', 'DSA', 'Machine Learning', 'Deep Learning', 'Android App Development', 'Full Stack Development',"ReactJS","NextJS"]
 const maxString = Math.max(...skills.map(x => x.length))
 
 export default function Home() {

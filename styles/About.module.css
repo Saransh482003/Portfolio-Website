@@ -17,6 +17,8 @@
     margin-top: 20px;
     width: 70%;
 }
+
+/* Educational Background Section */
 .edu{
     display: flex;
     flex-direction: column;
@@ -66,24 +68,30 @@
     height: 80%;
     margin: 20px;
 }
+
+/* Extra Curricular Section */
 .extra{
     display: flex;
     flex-direction: column;
-    height: 40rem;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
 }
 .extraContainer{
-    height: 80%;
-    width: 100%;
+    height:max-content;
+    width: 95%;
     margin-top: -10px;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .extraCard{
     display: flex;
     flex-direction: column;
-    width: 30%;
-    height: 80%;
+    width: 29%;
+    height: 28rem;
     margin: 30px;
     border-radius: 30px;
     box-shadow: 0px 5px 10px rgb(94, 94, 94);
@@ -108,4 +116,103 @@
     height: 100%;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+}
+
+/* My Skills Section */
+.skills{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+}
+.skillContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+    align-items: center;
+}
+.skillBasket{
+    height: max-content;
+    width: 80%;
+    /* background-color: aquamarine; */
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.skillCategory{
+    font-size: 18px;
+    font-weight: 500;
+    width: max-content;
+    text-align: center;
+    background-color: green;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.skillSet{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: max-content;
+    border-radius: 15px;
+    border: 3px solid green;
+    border-top-left-radius: 0px;
+    /* justify-content: center; */
+}
+.skillCard{
+    /* background-color: blue; */
+    /* width: 25%; */
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    border-radius: 500px;
+    border: 3px solid green;
+}
+.skillImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    background-color: green;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.skillImager{
+    height: 70%;
+    width: auto;
+    padding: 5px;
+    filter: grayscale(100%) brightness(1000);
+}
+.skillInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin-right: 10px;
+    width: max-content;
+}
+.skillName{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 7px;
+}
+.skillLevel{
+    font-size: 14px;
+    padding: 5px;
+    background-color: green;
+    color: white;
+    width: max-content;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 40px;
 }

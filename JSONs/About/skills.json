@@ -1,0 +1,91 @@
+{   "Programming Languages Col":"green",
+    "Programming Languages": [
+        {
+            "name": "Python",
+            "level": "Advanced",
+            "img": "/About/Skills/python.png"
+        },
+        {
+            "name": "Java",
+            "level": "Advanced",
+            "img": "/About/Skills/java.png"
+        },
+        {
+            "name": "JavaScript",
+            "level": "Advanced",
+            "img": "/About/Skills/js.png"
+        },
+        {
+            "name": "R",
+            "level": "Beginner",
+            "img": "/About/Skills/r.png"
+        }
+        
+    ],
+    "Data and Development Col":"#990000",
+    "Data and Development": [
+        {
+            "name": "MS Excel",
+            "level": "Advanced",
+            "img": "/About/Skills/excel.png"
+        },
+        {
+            "name": "MySQL",
+            "level": "Advanced",
+            "img": "/About/Skills/sql.png"
+        },
+        {
+            "name": "Data Preprocessing",
+            "level": "Intermediate",
+            "img": "/About/Skills/data_preprocessing.png"
+        },
+        {
+            "name": "Data Structures and Algorithms",
+            "level": "Intermediate",
+            "img": "/About/Skills/dsa.png"
+        }
+        
+    ],
+    "Machine Learning & AI Col":"rgb(248, 132, 0)",
+    "Machine Learning & AI": [
+        {
+            "name": "Machine Learning",
+            "level": "Advanced",
+            "img": "/About/Skills/ml.png"
+        },
+        {
+            "name": "Deep Learning",
+            "level": "Beginner",
+            "img": "/About/Skills/dl.png"
+        }
+        
+    ],
+    "Web and App Development Col":"black",
+    "Web and App Development": [
+        {
+            "name": "HTML",
+            "level": "Advanced",
+            "img": "/About/Skills/html.png"
+        },
+        {
+            "name": "CSS",
+            "level": "Advanced",
+            "img": "/About/Skills/css.png"
+        },
+        {
+            "name": "ReactJS",
+            "level": "Intermediate",
+            "img": "/About/Skills/reactjs.png"
+        },
+        {
+            "name": "NextJS",
+            "level": "Intermediate",
+            "img": "/About/Skills/nextjs.png"
+        },
+        {
+            "name": "Android Studio",
+            "level": "Intermediate",
+            "img": "/About/Skills/android.png"
+        }
+    ]
+}
