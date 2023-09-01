@@ -1,0 +1,43 @@
+{   "My Hobbies Col":"rgb(248, 132, 0)",
+    "My Hobbies": [
+        {
+            "name": "Teaching",
+            "img": "/About/Additional/teach.png"
+        },
+        {
+            "name": "Gyming",
+            "img": "/About/Additional/gym.png"
+        }
+    ],
+    "Personal Details Col":"#990000",
+    "Personal Details": [
+        {
+            "name": "20",
+            "img": "/About/Additional/age.png"
+        },
+        {
+            "name": "Male",
+            "img": "/About/Additional/gender.png"
+        },
+        {
+            "name": "Indian",
+            "img": "/About/Additional/nationality.png"
+        },
+        {
+            "name": "Delhi, India",
+            "img": "/About/Additional/residence.png"
+        }
+    ],
+    "Languages Known Col":"black",
+    "Languages Known": [
+        {
+            "name": "Hindi",
+            "img": "/About/Additional/hindi.png"
+        },
+        {
+            "name": "English",
+            "img": "/About/Additional/english.png"
+        }
+        
+    ]
+}

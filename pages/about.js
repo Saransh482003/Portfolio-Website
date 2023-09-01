@@ -6,14 +6,8 @@ const about = () => {
   const [education, setEducation] = useState([])
   const [extra, setExtra] = useState([])
   const [skills, setSkills] = useState({})
-  // const [programming, setProgramming] = useState([])
-  // const [programmingCol, setProgrammingCol] = useState("green")
-  // const [data, setData] = useState([])
-  // const [dataCol, setDataCol] = useState("green")
-  // const [machineAi, setMachineAi] = useState([])
-  // const [machineAiCol, setMachineAiCol] = useState("rgb(248, 132, 0)")
-  // const [webApp, setWebApp] = useState([])
-  // const [webAppCol, setWebAppCol] = useState("green")
+  const [additional, setAdditional] = useState({})
+
   useEffect(() => {
     fetch("http://localhost:3000/api/education").then((a) => {
       return a.json()
@@ -33,10 +27,13 @@ const about = () => {
       return a.json()
     }).then((res) => {
       setSkills(JSON.parse(res))
-      // setProgramming(JSON.parse(res)["Programming_Languages"])
-      // setProgramming(JSON.parse(res)["Programming_Languages"])
-      // setProgramming(JSON.parse(res)["Programming_Languages"])
-      // setProgramming(JSON.parse(res)["Programming_Languages"])
+    })
+  }, [])
+  useEffect(() => {
+    fetch("http://localhost:3000/api/aboutAdd").then((a) => {
+      return a.json()
+    }).then((res) => {
+      setAdditional(JSON.parse(res))
     })
   }, [])
   useEffect(() => {
@@ -87,29 +84,54 @@ const about = () => {
       <section className={styler.skills}>
         <h1 className={styler.eduHead}>My Skills</h1>
         <div className={styler.skillContainer}>
-        {Object.keys(skills).filter(key => !key.endsWith(" Col")).map(cat => (
-          <div className={styler.skillBasket} key={cat}>
-            <div className={styler.skillCategory} style={{ backgroundColor: skills[cat.concat(" Col")]}}>
-              {cat}
-            </div>
-            <div className={styler.skillSet} style={{borderColor: skills[cat.concat(" Col")]}}>
-              {skills[cat].map((skill, index) => (
-                <div className={styler.skillCard} key={index} style={{borderColor: skills[cat.concat(" Col")]}}>
-                  <div className={styler.skillImg} style={{backgroundColor: skills[cat.concat(" Col")]}}>
-                    <Image src={skill.img} width={200} height={200} className={styler.skillImager} alt={skill.name}></Image>
-                  </div>
-                  <div className={styler.skillInfo}>
-                    <p className={styler.skillName}>{skill.name}</p>
-                    <div className={styler.skillLevel} style={{backgroundColor: skills[cat.concat(" Col")]}}>
-                      {skill.level}
+          {Object.keys(skills).filter(key => !key.endsWith(" Col")).map(cat => (
+            <div className={styler.skillBasket} key={cat}>
+              <div className={styler.skillCategory} style={{ backgroundColor: skills[cat.concat(" Col")] }}>
+                {cat}
+              </div>
+              <div className={styler.skillSet} style={{ borderColor: skills[cat.concat(" Col")] }}>
+                {skills[cat].map((skill, index) => (
+                  <div className={styler.skillCard} key={index} style={{ borderColor: skills[cat.concat(" Col")] }}>
+                    <div className={styler.skillImg} style={{ backgroundColor: skills[cat.concat(" Col")] }}>
+                      <Image src={skill.img} width={200} height={200} className={styler.skillImager} alt={skill.name}></Image>
+                    </div>
+                    <div className={styler.skillInfo}>
+                      <p className={styler.skillName}>{skill.name}</p>
+                      <div className={styler.skillLevel} style={{ backgroundColor: skills[cat.concat(" Col")] }}>
+                        {skill.level}
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
-          </div>
-        ))}
-
+          ))}
+        </div>
+      </section>
+      <section className={styler.add}>
+        <h1 className={styler.eduHead}>Additional Information</h1>
+        <div className={styler.addContainer}>
+          {
+            Object.keys(additional).filter(k => !k.endsWith(" Col")).map((addition) => {
+              return <div className={styler.addSubContainer}>
+                <div className={styler.addHead} style={{ backgroundColor: additional[addition.concat(" Col")] }}>{addition}</div>
+                <div className={styler.addContent}>
+                  {
+                    additional[addition].map((items) => {
+                      return <div className={styler.addCard}>
+                        <div className={styler.addImg} style={{ backgroundColor: additional[addition.concat(" Col")] }}>
+                          <Image src={items.img} width={200} height={200} className={styler.addImager} alt={items.name}></Image>
+                        </div>
+                        <div className={styler.addInfo}>
+                          <p className={styler.addName}>{items.name}</p>
+                        </div>
+                      </div>
+                    })
+                  }
+                </div>
+              </div>
+            })
+          }
         </div>
       </section>
     </>

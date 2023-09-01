@@ -22,8 +22,8 @@
         }
         
     ],
-    "Data and Development Col":"#990000",
-    "Data and Development": [
+    "Data and Visualisation Col":"#990000",
+    "Data and Visualisation": [
         {
             "name": "MS Excel",
             "level": "Advanced",
@@ -43,6 +43,16 @@
             "name": "Data Structures and Algorithms",
             "level": "Intermediate",
             "img": "/About/Skills/dsa.png"
+        },
+        {
+            "name": "Tableau",
+            "level": "Advanced",
+            "img": "/About/Skills/tableau.png"
+        },
+        {
+            "name": "Power BI",
+            "level": "Intermediate",
+            "img": "/About/Skills/powerbi.png"
         }
         
     ],
