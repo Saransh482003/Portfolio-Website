@@ -1,0 +1,88 @@
+[
+    {
+        "head":"Data Preprocessing in Pandas",
+        "img":"/Learn/thumbnails/pandas.jpg",
+        "description":"Unlock the power of data with our comprehensive course on 'Data Cleaning and Preprocessing in Pandas.' Dive into 14 step-by-step videos filled with practical coding examples to transform raw data into valuable insights. Elevate your data skills today!",
+        "link":"https://www.youtube.com/watch?v=i_OlVHBqsN0&list=PLORaMvReI_aF611xpghctix2QJFLMxbh0",
+        "skills":[
+            {
+                "name":"Python",
+                "skillImg":"/Learn/skills/python.png"
+            },
+            {
+                "name":"Data Preprocessing",
+                "skillImg":"/Learn/skills/data_preprocessing.png"
+            }
+        ]
+
+    },
+    {
+        "head":"Advanced Excel Mastery",
+        "img":"/Learn/thumbnails/adv_excel.jpg",
+        "description":"Elevate your Excel skills with our comprehensive course, 'Advanced Excel Mastery'. In nine focused videos, we demystify advanced Excel challenges, tackling diverse topics. Master complex functions, data analysis, and more, and gain the expertise you need to excel in your professional endeavors. Join us now!",
+        "link":"https://www.youtube.com/watch?v=f7T1PJvfIRU&list=PLORaMvReI_aGTvjFWOwBauq73GbBaNxpE",
+        "skills":[
+            {
+                "name":"Excel",
+                "skillImg":"/Learn/skills/excel.png"
+            }
+        ]
+
+    },
+    {
+        "head":"Tableau Essentials",
+        "img":"/Learn/thumbnails/tableau.jpg",
+        "description":"Unlock the art of data storytelling in our 'Tableau Essentials' course. In nine videos, you'll master data visualization, creating captivating Tableau visuals. Elevate your skills, transform raw data into compelling narratives, and excel in data-driven decision-making.",
+        "link":"https://www.youtube.com/watch?v=GDFFruwAKmM&list=PLORaMvReI_aHjwn9Z6Hae_g3dzoOxiAEj",
+        "skills":[
+            {
+                "name":"Tableau",
+                "skillImg":"/Learn/skills/tableau.png"
+            },
+            {
+                "name":"Excel",
+                "skillImg":"/Learn/skills/excel.png"
+            }
+        ]
+
+    },
+    {
+        "head":"Python Practical Mastery",
+        "img":"/Learn/thumbnails/python_with_questions.jpg",
+        "description":"Master Python through hands-on learning in our course, 'Python Practical Mastery'. Dive into practical examples and real-world problem-solving, unlocking the full potential of Python programming for practical applications. Learn python while actually coding in it.",
+        "link":"https://www.youtube.com/watch?v=E39FguiABPA&list=PLORaMvReI_aFcMayUhYi_OQWXBQRhMuJ2",
+        "skills":[
+            {
+                "name":"Python",
+                "skillImg":"/Learn/skills/python.png"
+            }
+        ]
+
+    },
+    {
+        "head":"Excel Essentials Unleashed",
+        "img":"/Learn/thumbnails/basic_excel.jpg",
+        "description":"Learn the fundamentals of Excel effortlessly. Our concise course covers Excel's basic features, functions, and tips, empowering you to confidently navigate spreadsheets and boost your productivity. Learn excel with solving 10 exciting problems on real life dataset",
+        "link":"https://www.youtube.com/watch?v=pTSVFYBwciU&list=PLORaMvReI_aEaSM0LFihlHTtI8ODPHXMH",
+        "skills":[
+            {
+                "name":"Excel",
+                "skillImg":"/Learn/skills/excel.png"
+            }
+        ]
+
+    },
+    {
+        "head":"MySQL Practical Mastery",
+        "img":"/Learn/thumbnails/mysql_prac.jpg",
+        "description":"Elevate your database skills. Our comprehensive course guides you from MySQL basics to advanced topics, with hands-on practical exercises that solidify your understanding. Make MySQL your hands-on database management system. Unlock the full potential of MySQL!",
+        "link":"https://www.youtube.com/watch?v=1fERqVlQOmY&list=PLORaMvReI_aFqWB-XpLoxvru1vkzErR2-",
+        "skills":[
+            {
+                "name":"MySQL",
+                "skillImg":"/Learn/skills/mysql.png"
+            }
+        ]
+
+    }
+]

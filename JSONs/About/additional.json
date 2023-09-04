@@ -5,8 +5,12 @@
             "img": "/About/Additional/teach.png"
         },
         {
-            "name": "Gyming",
+            "name": "Gymming",
             "img": "/About/Additional/gym.png"
+        },
+        {
+            "name": "Reading",
+            "img": "/About/Additional/read.png"
         }
     ],
     "Personal Details Col":"#990000",
@@ -37,6 +41,10 @@
         {
             "name": "English",
             "img": "/About/Additional/english.png"
+        },
+	{
+            "name": "French",
+            "img": "/About/Additional/french.png"
         }
         
     ]
