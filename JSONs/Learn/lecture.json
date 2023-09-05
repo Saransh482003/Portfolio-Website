@@ -1,0 +1,88 @@
+[
+    {
+        "head":"Principal Component Analysis One-Shot",
+        "img":"/Learn/thumbnails/pca_one_shot.jpg",
+        "description":"Unlock the power of Principal Component Analysis (PCA) with a comprehensive one-shot lecture. Dive deep into the algorithm, grasping PCA's intricacies for effective dimensionality reduction and data analysis.",
+        "link":"https://www.youtube.com/watch?v=obo1tGHE8Vs",
+        "skills":[
+            {
+                "name":"Machine Learning",
+                "skillImg":"/Learn/skills/ml.png"
+            },
+            {
+                "name":"Data Preprocessing",
+                "skillImg":"/Learn/skills/data_preprocessing.png"
+            }
+        ]
+
+    },
+    {
+        "head":"Introduction to Sklearn - Logistic Regression",
+        "img":"/Learn/thumbnails/intro_sklearn_log.jpg",
+        "description":"Master hands-on logistic regression using Scikit-Learn in this concise lecture. Dive into practical implementation, learn model training, and unleash the power of logistic regression for real-world data analysis.",
+        "link":"https://www.youtube.com/watch?v=pnxkC5eeAqo",
+        "skills":[
+            {
+                "name":"Machine Learning",
+                "skillImg":"/Learn/skills/ml.png"
+            },
+            {
+                "name":"Python",
+                "skillImg":"/Learn/skills/python.png"
+            },
+            {
+                "name":"Data Preprocessing",
+                "skillImg":"/Learn/skills/data_preprocessing.png"
+            }
+        ]
+
+    },
+    {
+        "head":"Functions and Recursive Functions",
+        "img":"/Learn/thumbnails/python_recursion.jpg",
+        "description":"Unlock the world of Python functions, including recursive ones, in this comprehensive lecture. Master the art of modular programming, delve into recursion, and elevate your Python coding skills.",
+        "link":"https://www.youtube.com/watch?v=ks0Q33y4NLA",
+        "skills":[
+            {
+                "name":"Python",
+                "skillImg":"/Learn/skills/python.png"
+            }
+        ]
+
+    },
+    {
+        "head":"Python Nested Loops",
+        "img":"/Learn/thumbnails/python_nest_loop.jpg",
+        "description":"Demystify the art of nested loops in Python with this insightful lecture. Dive into practical examples and learn how to harness the full potential of nested loops for efficient programming. Strengthen this concept that forms the basis of Python programming.",
+        "link":"https://www.youtube.com/watch?v=mLLEGbpkRN8",
+        "skills":[
+            {
+                "name":"Python",
+                "skillImg":"/Learn/skills/python.png"
+            }
+        ]
+
+    },
+    {
+        "head":"Scratch Coding PCA Algorithm",
+        "img":"/Learn/thumbnails/pca_scratch.jpg",
+        "description":"Discover the inner workings of PCA by coding it from scratch. In this insightful lecture, delve into the core principles, step by step, and gain a deep understanding of Principal Component Analysis. We implement the algorithm learned in the One Shot video in python.",
+        "link":"https://www.youtube.com/watch?v=XTlMyBxkT0c",
+        "skills":[
+            {
+                "name":"Python",
+                "skillImg":"/Learn/skills/python.png"
+            },
+            {
+                "name":"Machine Learning",
+                "skillImg":"/Learn/skills/ml.png"
+            },
+            {
+                "name":"Data Preprocessing",
+                "skillImg":"/Learn/skills/data_preprocessing.png"
+            }
+            
+        ]
+
+    }
+]

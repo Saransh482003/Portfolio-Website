@@ -5,11 +5,19 @@ import Link from 'next/link'
 
 const learn = () => {
   const [courses, setCourses] = useState([])
+  const [lecture, setLecture] = useState([])
   useEffect(() => {
     fetch("http://localhost:3000/api/learnCourses").then((a) => {
       return a.json()
     }).then((res) => {
       setCourses(JSON.parse(res))
+    })
+  })
+  useEffect(() => {
+    fetch("http://localhost:3000/api/learnLectures").then((a) => {
+      return a.json()
+    }).then((res) => {
+      setLecture(JSON.parse(res))
     })
   })
   return (
@@ -22,7 +30,7 @@ const learn = () => {
         <h1 className={styler.coursesHead}>Courses</h1>
         <div className={styler.coursesExpo}>
           {
-            courses.map((cour, index) => {
+            courses.map(cour => {
               return <div className={styler.card}>
                 <div className={styler.imgContainer}>
                   <Image src={cour.img} width={500} height={281.25} className={styler.img}></Image>
@@ -36,16 +44,48 @@ const learn = () => {
                     <div className={styler.skillHead}>Skills to learn:</div>
                     <div className={styler.skillsBox}>
                       {
-                        cour.skills.map((skill, index) => {
+                        cour.skills.map(skill => {
                           return <Image src={skill.skillImg} width={200} height={200} className={styler.skill} title={skill.name}></Image>
                         })
                       }
-
-                      {/* <Image src="/About/Skills/dl.png" width={200} height={200} className={styler.skill} title='Deep Learning'></Image> */}
                     </div>
                   </div>
                   <div className={styler.btn}>
                     <Link href={cour.link} target="_blank" className={styler.goBtn}>Start Watching</Link>
+                  </div>
+                </div>
+              </div>
+            })
+          }
+
+        </div>
+      </section>
+      <section className={styler.coursesSection}>
+        <h1 className={styler.coursesHead}>Lectures</h1>
+        <div className={styler.coursesExpo}>
+          {
+            lecture.map(lec => {
+              return <div className={styler.card}>
+                <div className={styler.imgContainer}>
+                  <Image src={lec.img} width={500} height={281.25} className={styler.img}></Image>
+                </div>
+                <div className={styler.info}>
+                  <div className={styler.content}>
+                    <h1 className={styler.title}>{lec.head}</h1>
+                    <p className={styler.description}>{lec.description}</p>
+                  </div>
+                  <div className={styler.skillSet}>
+                    <div className={styler.skillHead}>Skills to learn:</div>
+                    <div className={styler.skillsBox}>
+                      {
+                        lec.skills.map(skill => {
+                          return <Image src={skill.skillImg} width={200} height={200} className={styler.skill} title={skill.name}></Image>
+                        })
+                      }
+                    </div>
+                  </div>
+                  <div className={styler.btn}>
+                    <Link href={lec.link} target="_blank" className={styler.goLecBtn}>Start Watching</Link>
                   </div>
                 </div>
               </div>

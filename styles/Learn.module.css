@@ -9,6 +9,7 @@
     color: white;
     font-size: 40px;
     font-weight: 900;
+    margin-bottom: 50px;
 }
 
 .quote {
@@ -27,6 +28,8 @@
     height: max-content;
     flex-wrap: wrap;
     width: 100%;
+    /* font-size: 20px; */
+    margin-bottom: 50px;
 }
 
 .coursesHead {
@@ -93,9 +96,7 @@
     height: 207.51px;
     /* justify-content: center; */
 }
-.title{
-    /* width: 100%; */
-}
+
 .skillHead{
     display: flex;
     flex-direction: column;
@@ -155,5 +156,27 @@
     background-color: #990000;
     color: white;
     border: 3px solid #990000;
+    border-radius: 30px;
+}
+.goLecBtn{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 50%;
+    font-weight: 500;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: rgb(248, 132, 0);
+    border: 3px solid rgb(248, 132, 0);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+.goLecBtn:hover{
+    background-color: rgb(248, 132, 0);
+    color: white;
+    border: 3px solid rgb(248, 132, 0);
     border-radius: 30px;
 }
