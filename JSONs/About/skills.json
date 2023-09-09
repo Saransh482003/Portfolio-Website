@@ -83,6 +83,11 @@
             "img": "/About/Skills/css.png"
         },
         {
+            "name": "Flask",
+            "level": "Intermediate",
+            "img": "/About/Skills/flask.png"
+        },
+        {
             "name": "ReactJS",
             "level": "Intermediate",
             "img": "/About/Skills/reactjs.png"

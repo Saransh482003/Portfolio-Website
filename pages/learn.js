@@ -12,14 +12,14 @@ const learn = () => {
     }).then((res) => {
       setCourses(JSON.parse(res))
     })
-  })
+  },[])
   useEffect(() => {
     fetch("http://localhost:3000/api/learnLectures").then((a) => {
       return a.json()
     }).then((res) => {
       setLecture(JSON.parse(res))
     })
-  })
+  },[])
   return (
     <>
       <section className={styler.channel}>
@@ -85,7 +85,7 @@ const learn = () => {
                     </div>
                   </div>
                   <div className={styler.btn}>
-                    <Link href={lec.link} target="_blank" className={styler.goLecBtn}>Start Watching</Link>
+                    <Link href={lec.link} target="_blank" className={styler.goBtn}>Start Watching</Link>
                   </div>
                 </div>
               </div>

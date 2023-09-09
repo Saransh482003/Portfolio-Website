@@ -1,0 +1,48 @@
+.blogSpace{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    align-items: center;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.blogImg{
+    height: 30rem;
+    width:100%;
+}
+.blogData{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: left;
+}
+.blogDateAuthor{
+    display: flex;
+    flex-direction: row;
+    color: #990000;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+.delimeter{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.heading{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(248, 132, 0);
+    margin-bottom: 10px;
+}
+.subContent{
+    margin-bottom: 20px;
+}

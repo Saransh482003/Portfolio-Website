@@ -1,0 +1,87 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    justify-content: center;
+    background-image: url("../public/Home Cards/blog.jpg");
+    background-position: 0px 600px;
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 60px;
+}
+
+.quote {
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 100;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.blogList{
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.blogSlide{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 14rem;
+  margin-bottom: 100px;
+}
+.blogImgContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  perspective: 800px;
+  width: 30%;
+  height: 100%;
+}
+.blogImg{
+  width: 100%;
+  height: 100%;
+  transform: rotateY(20deg);
+  transform-origin: right;
+  transition: all 0.3s ease-out;
+}
+.blogSlide:hover .blogImg {
+  transform: rotateY(0deg);
+}
+.blogContent{
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  width: 70%;
+  justify-content: center;
+}
+.blogHeader{
+  transition: all 0.2s ease-out;
+}
+.blogSlide:hover .blogHeader{
+  color: rgb(248, 132, 0);
+}
+
+.blogDateAuthor{
+  width: 100%;
+  color: #990000;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.delimeter{
+  font-size: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.blogEnd{
+  text-align: center;
+}
