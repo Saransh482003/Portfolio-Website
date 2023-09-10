@@ -4,7 +4,7 @@
         "date":"25 October 2022",
         "type":"Indivisual",
         "projImg":"/Projects/the-fitting-of-6-models.png",
-        "description":"I worked on a Machine Learning project, which I like to call 'The Fitting of 6 Models', (a bit poetic). The project deals with the classification of mobile phones in 4 price ranges based on their hardware features. The 6 Models used are: 1) Logistic Regression 2) KNN Classifier 3) KNN Regressor 4) Support Vector Machines (SVM) 5) Decision Trees 6) Random Forest. The best accuracy of 96% was achieved by SVM model, followed by 95% of Logistic Regression. Also, hyperparameter tuning was done using Cross Validation technique to achieve the best possible accuracy in every case."   ,
+        "description":"Introducing 'The Fitting of 6 Models,' a compelling venture encapsulating my journey in the domain of machine learning. In this project, I undertook the classification of mobile phones into four distinct price ranges, harnessing the capabilities of six diverse models: Logistic Regression, KNN Classifier, KNN Regressor, Support Vector Machines (SVM), Decision Trees, and Random Forest. \nNotably, the SVM model emerged as the standout performer, boasting an impressive 96% accuracy, closely followed by Logistic Regression at 95%. This project, backed by rigorous hyperparameter tuning using the Cross Validation technique, exemplifies my commitment to data-driven precision. It underscores the potential of data science in solving real-world challenges with finesse and analytical prowess."   ,
         "skills":[
             {
                 "name":"Python",
@@ -13,8 +13,157 @@
             {
                 "name":"Machine Learning",
                 "img":"/Learn/skills/ml.png"
+            },
+            {
+                "name":"Data Preprocessing",
+                "img":"/Learn/skills/data_preprocessing.png"
             }      
         ],
         "link":"https://www.linkedin.com/posts/saranshsaini48_the-fitting-of-6-models-by-saransh-saini-activity-6990623528651755520-oprv?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+        "title":"Music Player Android Application",
+        "date":"17 May 2023",
+        "type":"Indivisual",
+        "projImg":"/Projects/the-fitting-of-6-models.png",
+        "description":"Presenting 'Kalp Sangeet,' my debut Android Application Development project, emblematic of my journey into the realm of Android app creation. This minimalist Music Player application, crafted after completing the CodeWithHarry Android Development Course, mirrors my commitment to mastering the fundamentals. \nWhile 'Kalp Sangeet' may not encompass advanced functionalities such as autoplay, playlist management, or online music streaming, its simplicity and reliability define its core essence. It serves as a testament to my foundational skills in Android app development, offering users a straightforward yet effective platform for music playback, true to my commitment to building functional, user-focused software solutions."   ,
+        "skills":[
+            {
+                "name":"Java",
+                "img":"/Learn/skills/java.png"
+            },
+            {
+                "name":"Android App Development",
+                "img":"/Learn/skills/android.png"
+            },
+            {
+                "name":"UI & UX",
+                "img":"/Learn/skills/uiux.png"
+            }      
+        ],
+        "link":"https://www.linkedin.com/posts/saranshsaini48_appdevelopment-music-androiddevelopment-activity-7066847877058166784-h0oc?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+        "title":"MaanSick : A Mental Health Initiative",
+        "date":"6 July 2023",
+        "type":"Teamwork",
+        "projImg":"/Projects/the-fitting-of-6-models.png",
+        "description":"I embarked on an Android app development journey for a college project, focusing on a significant societal issue—mental health. This project centers on the creation of an application designed to assess a person's mental health status through a series of 18 fundamental questions about their life and habits. Leveraging the power of machine learning, the app employs these responses to predict an individual's mental well-being.\nThis innovative solution serves as a potential tool for the early detection of mental health issues often overlooked as mere mood swings. By facilitating early intervention and support, it contributes to the reduction of mental health challenges within our society. This project epitomizes my commitment to using technology for the betterment of individuals and communities."   ,
+        "skills":[
+            {
+                "name":"Java",
+                "img":"/Learn/skills/java.png"
+            },
+            {
+                "name":"Android App Development",
+                "img":"/Learn/skills/android.png"
+            },
+            {
+                "name":"UI & UX",
+                "img":"/Learn/skills/uiux.png"
+            },
+            {
+                "name":"HTML",
+                "img":"/Learn/skills/html.png"
+            },
+            {
+                "name":"CSS",
+                "img":"/Learn/skills/css.png"
+            }     
+        ],
+        "link":"https://www.linkedin.com/posts/saranshsaini48_androiddevelopment-appdevelopment-mentalhealth-activity-7075927887031189504-zAxk?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+        "title":"Zomato Database Analysis",
+        "date":"6 July 2022",
+        "type":"Teamwork",
+        "projImg":"/Projects/the-fitting-of-6-models.png",
+        "description":"My dedicated team and I embarked on a compelling college project centered around the analysis of Zomato's Restaurant Data, with the ultimate goal of gaining valuable insights to guide the establishment of a new restaurant venture. In our data exploration journey, we harnessed the power of the Pandas library, using it for data preprocessing and insightful data extraction.\nA standout feature of our project was the utilization of the K-Means Clustering Machine Learning Algorithm, a novel approach in the context of restaurant location selection. By employing K-Means Clustering, we pinpointed the ideal coordinates for our restaurant, a concept that resonated well with our audience.\nWorking with a real-world dataset was a rewarding experience that put our skills to the test. Our project garnered appreciation from the panelists, especially for our innovative use of K-Means Clustering as a decision-making tool for selecting the restaurant's location. It exemplifies our commitment to practical, data-driven problem-solving."   ,
+        "skills":[
+            {
+                "name":"Python",
+                "img":"/Learn/skills/python.png"
+            },
+            {
+                "name":"Data Preprocessing",
+                "img":"/Learn/skills/data_preprocessing.png"
+            },
+            {
+                "name":"Machine Learning",
+                "img":"/Learn/skills/ml.png"
+            },
+            {
+                "name":"Tableau",
+                "img":"/Learn/skills/tableau.png"
+            }
+        ],
+        "link":"https://www.linkedin.com/posts/saranshsaini48_zomatoindia-dataanalysis-machinelearning-activity-6984549989058273280-IFVN?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+        "title":"Alphabet Adventure",
+        "date":"23 June 2023",
+        "type":"Teamwork",
+        "projImg":"/Projects/the-fitting-of-6-models.png",
+        "description":"I had the privilege of working on an engaging project that combined Speech Recognition and Graphical User Interface (GUI) development. Our mission was to craft an educational and enjoyable application tailored for children, focusing on alphabet and number learning. This application serves as an interactive platform, fostering the development of essential skills in young learners.\nIn this user-friendly app, children encounter randomly generated numbers and alphabets, challenging them to recognize and articulate their responses. The application then assesses their performance and provides a score, transforming the learning process into a fun and rewarding experience. This project embodies our commitment to utilizing technology for educational purposes, enriching the learning journey of young minds and enhancing their foundational skills."   ,
+        "skills":[
+            {
+                "name":"Python",
+                "img":"/Learn/skills/python.png"
+            },
+            {
+                "name":"Machine Learning",
+                "img":"/Learn/skills/ml.png"
+            },
+            {
+                "name":"UI & UX",
+                "img":"/Learn/skills/uiux.png"
+            }
+        ],
+        "link":"https://www.linkedin.com/posts/saranshsaini48_linkedin-education-gui-activity-7079721958346506240-HPGl?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+        "title":"Garbage Detection Hackathon Project",
+        "date":"15 March 2023",
+        "type":"Teamwork",
+        "projImg":"/Projects/the-fitting-of-6-models.png",
+        "description":"In a collaborative effort with my partner, we embarked on a remarkable journey to develop a garbage detection and segregation model as part of a challenging Hackathon project. Our goal was to contribute to the critical issue of waste management by leveraging innovative technology. While we didn't secure victory in the competition, the experience proved invaluable.\nThroughout this endeavor, we honed our skills, expanded our knowledge, and delved into the intricacies of machine learning and computer vision. Our project represented our dedication to addressing real-world challenges and making a positive impact on the environment. Although we didn't claim the top prize, the lessons learned and the progress made during this journey were undoubtedly worth the effort.",
+        "skills":[
+            {
+                "name":"Python",
+                "img":"/Learn/skills/python.png"
+            },
+            {
+                "name":"Machine Learning",
+                "img":"/Learn/skills/ml.png"
+            },
+            {
+                "name":"Deep Learning",
+                "img":"/Learn/skills/dl.png"
+            }
+        ],
+        "link":"/projects"
+    },
+    {
+        "title":"Anukaran : A Communicative Bridge",
+        "date":"23 July 2023",
+        "type":"Teamwork",
+        "projImg":"/Projects/the-fitting-of-6-models.png",
+        "description":"Our semester project presents a collaborative endeavor that aims to push the boundaries of technology and communication. Tasked with the mission to create a sophisticated model, we embarked on a journey to visually detect sign language and employ Natural Language Processing (NLP) to transform it into meaningful conversations. Additionally, our innovative model possesses the unique capability to convert spoken language into sign language.\nThis project underscores our commitment to inclusivity and accessibility, bridging communication gaps for the hearing-impaired community. Through advanced computer vision and NLP techniques, we are working to facilitate seamless and expressive communication. This endeavor not only showcases our technical prowess but also embodies our aspiration to make a positive impact on society by enabling effective communication for all.",
+        "skills":[
+            {
+                "name":"Python",
+                "img":"/Learn/skills/python.png"
+            },
+            {
+                "name":"Machine Learning",
+                "img":"/Learn/skills/ml.png"
+            },
+            {
+                "name":"Deep Learning",
+                "img":"/Learn/skills/dl.png"
+            }
+        ],
+        "link":"/projects"
     }
+    
 ]

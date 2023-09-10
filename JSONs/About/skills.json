@@ -101,6 +101,11 @@
             "name": "Android Studio",
             "level": "Intermediate",
             "img": "/About/Skills/android.png"
+        },
+        {
+            "name": "UI & UX",
+            "level": "Intermediate",
+            "img": "/About/Skills/uiux.png"
         }
     ]
 }

@@ -1,24 +1,20 @@
 [
     {
-        "title":"The Fitting of 6 Models",
-        "date":"25 October 2022",
+        "title":"Data Structures and Algorithms Library from Scratch",
+        "date":"May 2023 - Present",
         "type":"Indivisual",
         "projImg":"/Projects/the-fitting-of-6-models.png",
-        "description":"I worked on a Machine Learning project, which I like to call 'The Fitting of 6 Models', (a bit poetic). The project deals with the classification of mobile phones in 4 price ranges based on their hardware features. The 6 Models used are: 1) Logistic Regression 2) KNN Classifier 3) KNN Regressor 4) Support Vector Machines (SVM) 5) Decision Trees 6) Random Forest. The best accuracy of 96% was achieved by SVM model, followed by 95% of Logistic Regression. Also, hyperparameter tuning was done using Cross Validation technique to achieve the best possible accuracy in every case."   ,
+        "description":"I'm currently engaged in a project to develop a Data Structures and Algorithms (DSA) library entirely from scratch. This ambitious endeavor involves hand-coding a wide range of DSA algorithms, including search algorithms, sorting techniques, graph algorithms, and more. The objective is to create a comprehensive resource that offers in-depth insight into the inner workings of these fundamental algorithms. \nThis project serves as an educational and practical tool for the DSA community, providing hands-on experience in implementing and understanding core DSA concepts. The library is a work in progress, continually expanding to cover various aspects of DSA to benefit learners and practitioners alike."   ,
         "skills":[
             {
                 "name":"Python",
                 "img":"/Learn/skills/python.png"
-            },
+            }, 
             {
-                "name":"Machine Learning",
-                "img":"/Learn/skills/ml.png"
-            },
-            {
-                "name":"Data Preprocessing",
-                "img":"/Learn/skills/data_preprocessing.png"
-            }            
+                "name":"Data Structures and Algorithms",
+                "img":"/Learn/skills/dsa.png"
+            }          
         ],
-        "link":"https://www.linkedin.com/posts/saranshsaini48_the-fitting-of-6-models-by-saransh-saini-activity-6990623528651755520-oprv?utm_source=share&utm_medium=member_desktop"
+        "link":"https://github.com/Saransh482003/DSA-Library-Scratch-Code"
     }
 ]

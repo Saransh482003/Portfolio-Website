@@ -8,7 +8,7 @@ const projects = () => {
   const [projects, setProjects] = useState([])
   const [hoveredIndex, setHoveredIndex] = useState(null);
   const colorPalete = ["green", "rgb(248, 132, 0)", "#990000", "black"]
-  const typePalete = ["Completed", "Ongoing", "Halted", "Future Plans"]
+  const typePalete = ["Completed", "Ongoing", "On Hold", "Future Plans"]
   useEffect(() => {
     fetch("http://localhost:3000/api/projectsFetcher").then((a) => {
       return a.json()
@@ -44,19 +44,21 @@ const projects = () => {
                   <div className={styler.content}>
                     <div className={styler.descTray}>
                       <p className={styler.descHead}>DESCRIPTION</p>
-                      <p className={styler.desc}>{proj.description}</p>
+                      <p className={styler.desc}>{proj.description.split('\n').map((line, index) => (
+                        <p key={index}>{line}</p>
+                      ))}</p>
                     </div>
                     <p className={styler.descHead}>SKILLS USED</p>
                     <div className={styler.skillTray}>
                       {
                         proj.skills.map(skill => {
-                          return <Image src={skill.img} width={200} height={200} alt={skill.name} title={skill.title} className={styler.skill}></Image>
+                          return <Image src={skill.img} width={200} height={200} className={styler.skill} title={skill.name}></Image>
                         })
                       }
 
                     </div>
                     <div className={styler.links}>
-                      <Link href="https://www.linkedin.com/posts/saranshsaini48_the-fitting-of-6-models-by-saransh-saini-activity-6990623528651755520-oprv?utm_source=share&utm_medium=member_desktop" target="_blank" className={styler.link} style={{
+                      <Link href={proj.link} target={proj.link === "/projects" ? "_self" : "_blank"} className={styler.link} style={{
                         backgroundColor: hoveredIndex === index ? colorPalete[index] : '', borderColor: colorPalete[index], color: hoveredIndex === index ? "" : colorPalete[index]
                       }} onMouseEnter={() => setHoveredIndex(index)}
                         onMouseLeave={() => setHoveredIndex(null)}>Go to Project</Link>
@@ -69,7 +71,8 @@ const projects = () => {
 
           })
         }
-
+        
+      <div>You have reached the end!!</div>
       </section>
     </>
   )
