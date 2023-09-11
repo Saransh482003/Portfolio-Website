@@ -3,7 +3,7 @@
         "title":"The Fitting of 6 Models",
         "date":"25 October 2022",
         "type":"Indivisual",
-        "projImg":"/Projects/the-fitting-of-6-models.png",
+        "projImg":"/Projects/the-fitting-of-6-models.jpg",
         "description":"Introducing 'The Fitting of 6 Models,' a compelling venture encapsulating my journey in the domain of machine learning. In this project, I undertook the classification of mobile phones into four distinct price ranges, harnessing the capabilities of six diverse models: Logistic Regression, KNN Classifier, KNN Regressor, Support Vector Machines (SVM), Decision Trees, and Random Forest. \nNotably, the SVM model emerged as the standout performer, boasting an impressive 96% accuracy, closely followed by Logistic Regression at 95%. This project, backed by rigorous hyperparameter tuning using the Cross Validation technique, exemplifies my commitment to data-driven precision. It underscores the potential of data science in solving real-world challenges with finesse and analytical prowess."   ,
         "skills":[
             {
@@ -22,10 +22,10 @@
         "link":"https://www.linkedin.com/posts/saranshsaini48_the-fitting-of-6-models-by-saransh-saini-activity-6990623528651755520-oprv?utm_source=share&utm_medium=member_desktop"
     },
     {
-        "title":"Music Player Android Application",
+        "title":"Kalp Sangeet : Music Player Android Application",
         "date":"17 May 2023",
         "type":"Indivisual",
-        "projImg":"/Projects/the-fitting-of-6-models.png",
+        "projImg":"/Projects/kalp-sangeet.jpg",
         "description":"Presenting 'Kalp Sangeet,' my debut Android Application Development project, emblematic of my journey into the realm of Android app creation. This minimalist Music Player application, crafted after completing the CodeWithHarry Android Development Course, mirrors my commitment to mastering the fundamentals. \nWhile 'Kalp Sangeet' may not encompass advanced functionalities such as autoplay, playlist management, or online music streaming, its simplicity and reliability define its core essence. It serves as a testament to my foundational skills in Android app development, offering users a straightforward yet effective platform for music playback, true to my commitment to building functional, user-focused software solutions."   ,
         "skills":[
             {
@@ -47,7 +47,7 @@
         "title":"MaanSick : A Mental Health Initiative",
         "date":"6 July 2023",
         "type":"Teamwork",
-        "projImg":"/Projects/the-fitting-of-6-models.png",
+        "projImg":"/Projects/maansick.jpg",
         "description":"I embarked on an Android app development journey for a college project, focusing on a significant societal issue—mental health. This project centers on the creation of an application designed to assess a person's mental health status through a series of 18 fundamental questions about their life and habits. Leveraging the power of machine learning, the app employs these responses to predict an individual's mental well-being.\nThis innovative solution serves as a potential tool for the early detection of mental health issues often overlooked as mere mood swings. By facilitating early intervention and support, it contributes to the reduction of mental health challenges within our society. This project epitomizes my commitment to using technology for the betterment of individuals and communities."   ,
         "skills":[
             {
@@ -77,7 +77,7 @@
         "title":"Zomato Database Analysis",
         "date":"6 July 2022",
         "type":"Teamwork",
-        "projImg":"/Projects/the-fitting-of-6-models.png",
+        "projImg":"/Projects/zomato-analysis.jpeg",
         "description":"My dedicated team and I embarked on a compelling college project centered around the analysis of Zomato's Restaurant Data, with the ultimate goal of gaining valuable insights to guide the establishment of a new restaurant venture. In our data exploration journey, we harnessed the power of the Pandas library, using it for data preprocessing and insightful data extraction.\nA standout feature of our project was the utilization of the K-Means Clustering Machine Learning Algorithm, a novel approach in the context of restaurant location selection. By employing K-Means Clustering, we pinpointed the ideal coordinates for our restaurant, a concept that resonated well with our audience.\nWorking with a real-world dataset was a rewarding experience that put our skills to the test. Our project garnered appreciation from the panelists, especially for our innovative use of K-Means Clustering as a decision-making tool for selecting the restaurant's location. It exemplifies our commitment to practical, data-driven problem-solving."   ,
         "skills":[
             {

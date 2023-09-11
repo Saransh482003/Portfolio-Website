@@ -32,7 +32,7 @@ const projects = () => {
                 <div className={styler.projectValue} style={{ "borderColor": colorPalete[index] }}>
                   <div className={styler.projectInfo}>
                     <div className={styler.ImgContainer}>
-                      <Image src="/Projects/the-fitting-of-6-models.png" width={200} height={200} className={styler.Img}></Image>
+                      <Image src={proj.projImg} width={1000} height={1000} className={styler.Img}></Image>
                     </div>
                     <div className={styler.info}>
                       <h1 className={styler.h1}>{proj.title}</h1>
