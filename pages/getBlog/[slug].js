@@ -15,7 +15,7 @@ const slug = () => {
     useEffect(() => {
         if (sluger) {
             console.log(sluger)
-            fetch(`http://localhost:3000/api/blogFetcher?slug=${sluger}`).then((a) => {
+            fetch(`/api/blogFetcher?slug=${sluger}`).then((a) => {
                 return a.json()
             }).then((res) => {
                 setBlog(res)
