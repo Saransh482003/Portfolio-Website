@@ -22,7 +22,7 @@ export default function Home() {
 
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/explorer").then((a) => {
+    fetch("/api/explorer").then((a) => {
       return a.json()
     }).then((res) => {
       setExplore(JSON.parse(res))

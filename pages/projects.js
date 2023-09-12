@@ -10,7 +10,7 @@ const projects = () => {
   const colorPalete = ["green", "rgb(248, 132, 0)", "#990000", "black"]
   const typePalete = ["Completed", "Ongoing", "On Hold", "Future Plans"]
   useEffect(() => {
-    fetch("http://localhost:3000/api/projectsFetcher").then((a) => {
+    fetch("/api/projectsFetcher").then((a) => {
       return a.json()
     }).then((res) => {
       setProjects(res)

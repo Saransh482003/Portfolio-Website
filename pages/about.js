@@ -9,28 +9,28 @@ const about = () => {
   const [additional, setAdditional] = useState({})
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/education").then((a) => {
+    fetch("/api/education").then((a) => {
       return a.json()
     }).then((res) => {
       setEducation(JSON.parse(res))
     })
   }, [])
   useEffect(() => {
-    fetch("http://localhost:3000/api/extra").then((a) => {
+    fetch("/api/extra").then((a) => {
       return a.json()
     }).then((res) => {
       setExtra(JSON.parse(res))
     })
   }, [])
   useEffect(() => {
-    fetch("http://localhost:3000/api/aboutSkill").then((a) => {
+    fetch("/api/aboutSkill").then((a) => {
       return a.json()
     }).then((res) => {
       setSkills(JSON.parse(res))
     })
   }, [])
   useEffect(() => {
-    fetch("http://localhost:3000/api/aboutAdd").then((a) => {
+    fetch("/api/aboutAdd").then((a) => {
       return a.json()
     }).then((res) => {
       setAdditional(JSON.parse(res))

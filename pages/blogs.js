@@ -6,7 +6,7 @@ import Link from 'next/link'
 const blog = () => {
   const [allBlogs, setAllBlogs] = useState([])
   useEffect(() => {
-    fetch("http://localhost:3000/api/allBlogFetcher").then((a) => {
+    fetch("/api/allBlogFetcher").then((a) => {
       return a.json()
     }).then((res) => {
       setAllBlogs(res.reverse())

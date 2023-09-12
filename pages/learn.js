@@ -7,14 +7,14 @@ const learn = () => {
   const [courses, setCourses] = useState([])
   const [lecture, setLecture] = useState([])
   useEffect(() => {
-    fetch("http://localhost:3000/api/learnCourses").then((a) => {
+    fetch("/api/learnCourses").then((a) => {
       return a.json()
     }).then((res) => {
       setCourses(JSON.parse(res))
     })
   },[])
   useEffect(() => {
-    fetch("http://localhost:3000/api/learnLectures").then((a) => {
+    fetch("/api/learnLectures").then((a) => {
       return a.json()
     }).then((res) => {
       setLecture(JSON.parse(res))
