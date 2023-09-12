@@ -10,7 +10,7 @@ const learn = () => {
     fetch("/api/learnCourses").then((a) => {
       return a.json()
     }).then((res) => {
-      setCourses(JSON.parse(res))
+      setCourses(res)
     })
   },[])
   useEffect(() => {
