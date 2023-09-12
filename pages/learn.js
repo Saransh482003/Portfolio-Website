@@ -10,15 +10,14 @@ const learn = () => {
     fetch("/api/learnCourses").then((a) => {
       return a.json()
     }).then((res) => {
-      setCourses(res)
+      setCourses(JSON.parse(res))
     })
   },[])
   useEffect(() => {
     fetch("/api/learnLectures").then((a) => {
       return a.json()
     }).then((res) => {
-      console.log("Runnabel")
-      setLecture(res)
+      setLecture(JSON.parse(res))
     })
   },[])
   return (
