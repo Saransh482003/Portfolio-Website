@@ -2,25 +2,25 @@
     {
         "title":"ABOUT ME",
         "description":"Step into my world of curiosity and exploration. Discover my journey as a devoted Data Science enthusiast, and unravel the layers of my educational pursuits, leadership experiences, and innovative projects!",
-        "img":"/Home Cards/about.jpg",
+        "img":"/Home_Cards/about.jpg",
         "link":"/about"
     },
     {
         "title":"LEARN",
         "description":"Curious about Data Science and Machine Learning? Tune in to 'Data Ki Science' for engaging insights and tutorials. Learn Data Science concepts like Machine Learning, Python Programming, and a lot more. Let's explore together!",
-        "img":"/Home Cards/learn.jpg",
+        "img":"/Home_Cards/learn.jpg",
         "link":"/learn"
     },
    {
         "title":"BLOGS",
         "description":"Step into a treasure trove of insights at my blog corner. Uncover articles on Data Science, Machine Learning, and more. Let's explore the fascinating world of tech and knowledge together!",
-        "img":"/Home Cards/blog.jpg",
+        "img":"/Home_Cards/blog.jpg",
         "link":"/blogs"
     },
    {
         "title":"MY PROJECTS",
         "description":"Discover a fusion of creativity and innovation in my project showcase. From Machine Learning marvels to captivating Web and Android developments, explore the exciting landscapes of my work. Let's journey through the realm of tech and possibilities!",
-        "img":"/Home Cards/projects.jpg",
+        "img":"/Home_Cards/projects.jpg",
         "link":"/projects"
     }
 ]
