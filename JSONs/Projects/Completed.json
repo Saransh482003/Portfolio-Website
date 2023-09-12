@@ -2,7 +2,7 @@
     {
         "title":"The Fitting of 6 Models",
         "date":"25 October 2022",
-        "type":"Indivisual",
+        "type":"Individual",
         "projImg":"/Projects/the-fitting-of-6-models.jpg",
         "description":"Introducing 'The Fitting of 6 Models,' a compelling venture encapsulating my journey in the domain of machine learning. In this project, I undertook the classification of mobile phones into four distinct price ranges, harnessing the capabilities of six diverse models: Logistic Regression, KNN Classifier, KNN Regressor, Support Vector Machines (SVM), Decision Trees, and Random Forest. \nNotably, the SVM model emerged as the standout performer, boasting an impressive 96% accuracy, closely followed by Logistic Regression at 95%. This project, backed by rigorous hyperparameter tuning using the Cross Validation technique, exemplifies my commitment to data-driven precision. It underscores the potential of data science in solving real-world challenges with finesse and analytical prowess."   ,
         "skills":[
@@ -24,7 +24,7 @@
     {
         "title":"Kalp Sangeet : Music Player Android Application",
         "date":"17 May 2023",
-        "type":"Indivisual",
+        "type":"Individual",
         "projImg":"/Projects/kalp-sangeet.jpg",
         "description":"Presenting 'Kalp Sangeet,' my debut Android Application Development project, emblematic of my journey into the realm of Android app creation. This minimalist Music Player application, crafted after completing the CodeWithHarry Android Development Course, mirrors my commitment to mastering the fundamentals. \nWhile 'Kalp Sangeet' may not encompass advanced functionalities such as autoplay, playlist management, or online music streaming, its simplicity and reliability define its core essence. It serves as a testament to my foundational skills in Android app development, offering users a straightforward yet effective platform for music playback, true to my commitment to building functional, user-focused software solutions."   ,
         "skills":[

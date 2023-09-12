@@ -1,20 +1,21 @@
+
 .about{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 300px;
+    height: 30rem;
     justify-content: center;
     background-image: url("../public/Home_Cards/about.jpg");
     color: white;
-    font-size: 40px;
+    font-size: 4rem;
     font-weight: 900;
 }
 .quote{
-    font-size: 18px;
+    font-size: 1.8rem;
     text-align: center;
     font-style: italic;
     font-weight: 100;
-    margin-top: 20px;
+    margin-top: 2rem;
     width: 70%;
 }
 
@@ -22,41 +23,43 @@
 .edu{
     display: flex;
     flex-direction: column;
-    height: 35rem;
+    height: 56rem;
     width: 100%;
+    font-size: 1.6rem;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
 }
 .eduHead{
-    margin:20px;
+    margin:2rem;
     text-align: center;
-    font-size: 30px;
+    font-size: 3rem;
 }
 .eduCard{
     display: flex;
     flex-direction: row;
-    border-radius: 30px;
-    height: 230px;
+    border-radius: 3rem;
+    height: 23rem;
+    font-size: 1.6rem;
     width: 75%;
-    box-shadow: 0px 5px 10px rgb(94, 94, 94);
-    margin-bottom: 20px;
+    box-shadow: 0rem 0.5rem 1rem rgb(94, 94, 94);
+    margin-bottom: 2rem;
 }
 .eduInfo{
     width: 70%;
-    margin:15px;
+    margin:1.5rem;
 }
 .eduCardHead{
     color:rgb(248, 132, 0);
-    font-size: 20px;
+    font-size: 2rem;
 }
 .eduCardName{
     color:rgb(107, 107, 107);
-    font-size: 15px;
+    font-size: 1.5rem;
 font-weight:500;
 }
 .eduCardDesc{
-    margin-top: 10px;
-    font-size: 12px;
+    margin-top: 1rem;
+    font-size: 1.2rem;
 }
 .eduImg{
     width: 30%;
@@ -68,22 +71,23 @@ font-weight:500;
 .eduLogo{
     width: auto;
     height: 80%;
-    margin: 20px;
+    margin: 2rem;
 }
 
 /* Extra Curricular Section */
 .extra{
     display: flex;
     flex-direction: column;
+    font-size: 1.6rem;
     height: max-content;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
 }
 .extraContainer{
     height:max-content;
     width: 95%;
-    margin-top: -10px;
+    margin-top: -1rem;
     display: flex;
     flex-direction: row;
     /* align-items: center; */
@@ -94,17 +98,22 @@ font-weight:500;
     display: flex;
     flex-direction: column;
     width: 29%;
-    height: 28rem;
-    margin: 30px;
-    border-radius: 30px;
-    box-shadow: 0px 5px 10px rgb(94, 94, 94);
+    height: 44.8rem;
+    margin: 3rem;
+    border-radius: 3rem;
+    box-shadow: 0rem 0.5rem 1rem rgb(94, 94, 94);
 }
+
 .extraHead{
-    margin: 20px;
+    margin: 2rem;
+    transition: all 0.2s ease-out;
+}
+.extraCard:hover .extraHead{
+    color:rgb(248, 132, 0);
 }
 .extraDesc{
-    margin: 20px;
-    margin-top: -10px;
+    margin: 2rem;
+    margin-top: -1rem;
 }
 .extraImg{
     height: 40%;
@@ -117,8 +126,8 @@ font-weight:500;
 .extraImger{
     width: 100%;
     height: 100%;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
 }
 
 /* My Skills Section */
@@ -126,8 +135,9 @@ font-weight:500;
     display: flex;
     flex-direction: column;
     width: 100%;
+    font-size: 1.6rem;
     height: max-content;
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
 }
 .skillContainer{
     display: flex;
@@ -142,44 +152,44 @@ font-weight:500;
     height: max-content;
     width: 80%;
     /* background-color: aquamarine; */
-    margin: 30px;
+    margin: 3rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 
 }
 .skillCategory{
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 500;
     width: max-content;
     text-align: center;
     background-color: green;
-    padding: 8px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0.8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     color: white;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
 }
 .skillSet{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     height: max-content;
-    border-radius: 15px;
-    border: 3px solid green;
-    border-top-left-radius: 0px;
+    border-radius: 1.5rem;
+    border: 0.3rem solid green;
+    border-top-left-radius: 0rem;
     /* justify-content: center; */
 }
 .skillCard{
     /* background-color: blue; */
     /* width: 25%; */
-    height: 5rem;
+    height: 8rem;
     display: flex;
     flex-direction: row;
-    margin: 20px;
-    border-radius: 500px;
-    border: 3px solid green;
+    margin: 2rem;
+    border-radius: 50rem;
+    border: 0.3rem solid green;
 }
 .skillImg{
     display: flex;
@@ -188,42 +198,43 @@ font-weight:500;
     align-items: center;
     width: 70px;
     background-color: green;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
 }
 .skillImager{
     height: 70%;
     width: auto;
-    padding: 5px;
+    padding: 0.5rem;
     filter: grayscale(100%) brightness(1000);
 }
 .skillInfo{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 10px;
-    margin-right: 10px;
+    padding: 1rem;
+    margin-right: 1rem;
     width: max-content;
 }
 .skillName{
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 500;
-    margin-left: 7px;
+    margin-left: 0.7rem;
 }
 .skillLevel{
-    font-size: 14px;
-    padding: 5px;
+    font-size: 1.4rem;
+    padding: 0.5rem;
     background-color: green;
     color: white;
     width: max-content;
-    padding-left: 8px;
-    padding-right: 8px;
-    border-radius: 40px;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    border-radius: 4rem;
 }
 .add{
     display: flex;
     flex-direction: column;
     height: max-content;
+    font-size: 1.6rem;
     align-items: center;
     width: 100%;
 }
@@ -243,20 +254,20 @@ font-weight:500;
     width: 28%;
     height: max-content;
     align-items: center;
-    margin: 30px;
-    border-radius: 50px;
-    border-bottom-left-radius: 80px;
-    border-bottom-right-radius: 80px;
-    box-shadow: 0px 5px 10px rgb(94, 94, 94);
+    margin: 3rem;
+    border-radius: 5rem;
+    border-bottom-left-radius: 8rem;
+    border-bottom-right-radius: 8rem;
+    box-shadow: 0rem 0.5rem 1rem rgb(94, 94, 94);
 }
 .addHead{
-    height: 10.5rem;
+    height: 16.8rem;
     width: 100%;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
     background-color: #990000;
     color: white;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-weight: 500;
     display: flex;
     flex-direction: column;
@@ -268,20 +279,20 @@ font-weight:500;
     flex-direction: column;
     height: 70%;
     width: 100%;
-    padding: 10px;
+    padding: 1rem;
     justify-content: center;
     align-items: center;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 10rem;
+    border-bottom-right-radius: 10rem;
     /* background-color: aquamarine; */
 }
 .addCard{
     display: flex;
     flex-direction: row;
-    height: 5rem;
+    height: 8rem;
     width: 60%;
-    border-radius: 30px;
-    margin: 15px;
+    border-radius: 3rem;
+    margin: 1.5rem;
     /* background-color: aqua; */
 }
 .addImg{
@@ -291,8 +302,8 @@ font-weight:500;
     align-items: center;
     width: 35%;
     background-color: #990000;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
 }
 .addInfo{
     display: flex;
@@ -305,10 +316,10 @@ font-weight:500;
 .addImager{
     height: 70%;
     width: auto;
-    padding: 5px;
+    padding: 0.5rem;
     filter: grayscale(100%) brightness(1000);
 }
 .addName{
-    font-size: 20px;
-    margin-left: 10px;
+    font-size: 2rem;
+    margin-left: 1rem;
 }

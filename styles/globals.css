@@ -88,6 +88,9 @@ html,body {
   color:black;
   font-family: "Poppins";
 }
+html{
+  font-size: 62.5%;
+}
 
 a {
   color: inherit;

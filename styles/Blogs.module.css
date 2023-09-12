@@ -2,46 +2,47 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 300px;
+    height: 30rem;
     justify-content: center;
     background-image: url("../public/Home_Cards/blog.jpg");
-    background-position: 0px 600px;
+    background-position: 0rem 60rem;
     color: white;
-    font-size: 40px;
+    font-size: 4rem;
     font-weight: 900;
-    margin-bottom: 60px;
+    margin-bottom: 6rem;
 }
 
 .quote {
-    font-size: 18px;
+    font-size: 1.8rem;
     text-align: center;
     font-style: italic;
     font-weight: 100;
-    margin-top: 20px;
+    margin-top: 2rem;
     width: 50%;
 }
 
 .blogList{
+  font-size: 1.6rem;
   display: flex;
   flex-direction: column;
   height: max-content;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
 }
 .blogSlide{
   display: flex;
   flex-direction: row;
   width: 80%;
-  height: 14rem;
-  margin-bottom: 100px;
+  height: 22.4rem;
+  margin-bottom: 10rem;
 }
 .blogImgContainer{
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  perspective: 800px;
+  perspective: 80rem;
   width: 30%;
   height: 100%;
 }
@@ -58,7 +59,7 @@
 .blogContent{
   display: flex;
   flex-direction: column;
-  padding-left: 20px;
+  padding-left: 2rem;
   width: 70%;
   justify-content: center;
 }
@@ -78,9 +79,9 @@
   align-items: center;
 }
 .delimeter{
-  font-size: 20px;
-  margin-left: 15px;
-  margin-right: 15px;
+  font-size: 2rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 .blogEnd{
   text-align: center;

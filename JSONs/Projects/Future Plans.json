@@ -2,7 +2,7 @@
     {
         "title":"Kalp Runnable : A Machine Learning Platform",
         "date":"",
-        "type":"Indivisual",
+        "type":"Individual",
         "projImg":"/Projects/placeholder.png",
         "description":"In the pipeline is an innovative project that aims to develop a user-friendly website, akin to Google's Teachable Machines, empowering users to train their Machine Learning (ML) and Deep Learning (DL) models with ease. The platform will offer a seamless interface for users to create, fine-tune, and deploy their own ML and DL models, all without the need for extensive coding expertise.\nOne standout feature of this platform will be its integration of Natural Language Processing (NLP) capabilities. Users will have the ability to perform text analysis, including sentiment analysis, language translation, and more, making it a versatile tool for various applications.\nThe overarching objective is to democratize AI and ML, making these technologies more accessible to a broader audience, fostering innovation, and creating a community of learners and practitioners. The project envisions a future where individuals and organizations can harness the power of AI and NLP for their unique needs, furthering advancements in the field."   ,
         "skills":[
@@ -29,6 +29,10 @@
             {
                 "name":"CSS",
                 "img":"/Learn/skills/css.png"
+            } ,
+            {
+                "name":"JavaScript",
+                "img":"/Learn/skills/js.png"
             }    ,
             {
                 "name":"Flask",
