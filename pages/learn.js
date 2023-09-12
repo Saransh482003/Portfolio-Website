@@ -17,7 +17,7 @@ const learn = () => {
     fetch("/api/learnLectures").then((a) => {
       return a.json()
     }).then((res) => {
-      setLecture(JSON.parse(res))
+      setLecture(res)
     })
   },[])
   return (
