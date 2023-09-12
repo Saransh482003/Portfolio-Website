@@ -10,14 +10,14 @@ const learn = () => {
     fetch("/api/learnCourses").then((a) => {
       return a.json()
     }).then((res) => {
-      setCourses(JSON.parse(res))
+      setCourses(res)
     })
   },[])
   useEffect(() => {
     fetch("/api/learnLectures").then((a) => {
       return a.json()
     }).then((res) => {
-      setLecture(JSON.parse(res))
+      setLecture(res)
     })
   },[])
   return (
