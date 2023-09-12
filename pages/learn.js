@@ -17,6 +17,7 @@ const learn = () => {
     fetch("/api/learnLectures").then((a) => {
       return a.json()
     }).then((res) => {
+      console.log("Runnabel")
       setLecture(res)
     })
   },[])
