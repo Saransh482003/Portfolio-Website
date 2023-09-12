@@ -53,7 +53,15 @@ const contact = () => {
           </div>
           <Link href="https://github.com/Saransh482003" target='_blank' className={styler.goBtn}  style={{color:"black ",borderColor:"black"}}>
             Go to GitHub
-          
+          </Link>
+        </div>
+
+        <div className={styler.card}>
+          <div className={styler.imgContainer} style={{backgroundColor:"#c4302b"}}>
+            <Image src="/Contact/youtube.png" height={400} width={400} className={styler.img}></Image>
+          </div>
+          <Link href="https://www.youtube.com/channel/UC3VwXRxvSJ2YEGGZ267MVSg" target='_blank' className={styler.goBtn}  style={{color:"#c4302b",borderColor:"#c4302b"}}>
+            Go to Channel
           </Link>
         </div>
 

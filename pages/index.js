@@ -25,7 +25,7 @@ export default function Home() {
     fetch("/api/explorer").then((a) => {
       return a.json()
     }).then((res) => {
-      setExplore(JSON.parse(res))
+      setExplore(res)
     })
   }, [])
 

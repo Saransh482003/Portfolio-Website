@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import styler from "../styles/About.module.css"
+import Link from 'next/link'
 
 const about = () => {
   const [education, setEducation] = useState([])
@@ -12,28 +13,28 @@ const about = () => {
     fetch("/api/education").then((a) => {
       return a.json()
     }).then((res) => {
-      setEducation(JSON.parse(res))
+      setEducation(res)
     })
   }, [])
   useEffect(() => {
     fetch("/api/extra").then((a) => {
       return a.json()
     }).then((res) => {
-      setExtra(JSON.parse(res))
+      setExtra(res)
     })
   }, [])
   useEffect(() => {
     fetch("/api/aboutSkill").then((a) => {
       return a.json()
     }).then((res) => {
-      setSkills(JSON.parse(res))
+      setSkills(res)
     })
   }, [])
   useEffect(() => {
     fetch("/api/aboutAdd").then((a) => {
       return a.json()
     }).then((res) => {
-      setAdditional(JSON.parse(res))
+      setAdditional(res)
     })
   }, [])
   useEffect(() => {
@@ -68,7 +69,7 @@ const about = () => {
         <h1 className={styler.eduHead}>Extra Curricular Activities</h1>
         <div className={styler.extraContainer} id="extraCon">
           {extra.map((ex, ind) => {
-            return <div className={styler.extraCard}>
+            return <Link href={ex.link} target='_blank' className={styler.extraCard}>
               <div className={styler.extraImg}>
                 <Image src={ex.img} width={920} height={404} alt={ex.head} className={styler.extraImger}></Image>
               </div>
@@ -76,7 +77,7 @@ const about = () => {
                 <h1 className={styler.extraHead}>{ex.head}</h1>
                 <p className={styler.extraDesc}>{ex.description}</p>
               </div>
-            </div>
+            </Link>
           })
           }
         </div>

@@ -1,9 +1,16 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import *  as fs from "fs"
+import path from "path"
 export default async function handler(req, res) {
-  let data;
-  let query = req.query.slug
-  data = await fs.promises.readFile(`JSONs/Blogs/${query}.json`,"utf-8")
-  data = JSON.parse(data)
-  res.status(200).json(data)
+  try{
+    const query = req.query.slug
+    const filePath = path.join(process.cwd(),"JSONs","Blogs",`${query}.json`)
+    const data = await fs.promises.readFile(filePath,"utf-8")
+    res.status(200).json(JSON.parse(data))
+  }
+  catch(error){
+    console.error("Error reading JSON file:", error);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+
 }
