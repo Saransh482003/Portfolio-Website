@@ -90,6 +90,8 @@ html,body {
 }
 html{
   font-size: 62.5%;
+  width: 100%;
+  
 }
 
 a {
@@ -102,3 +104,4 @@ a {
     color-scheme: dark;
   }
 }
+/* @media() */

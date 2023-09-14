@@ -28,6 +28,7 @@
 .profile{
     margin-left: 1.5rem;
     display: flex;
+    width: 20%;
     flex-direction: row;
     align-items: center;
     float: left;
@@ -37,7 +38,7 @@
     flex-direction: row;
     align-items: center;
     float: right;
-    margin-left: 62.5rem;
+    /* margin-left: 62.5rem; */
 }
 .link{
     font-family: "Poppins";
@@ -52,4 +53,11 @@
     display: inline-block; /* Ensures padding affects only the bottom */
   padding-bottom: 0.4rem; /* Adjust the padding as needed for spacing */
   border-bottom: 0.3rem solid rgb(250, 108, 13);
+}
+.restCase{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content: right;
 }
