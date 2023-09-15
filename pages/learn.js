@@ -12,14 +12,14 @@ const learn = () => {
     }).then((res) => {
       setCourses(res)
     })
-  },[])
+  }, [])
   useEffect(() => {
     fetch("/api/learnLectures").then((a) => {
       return a.json()
     }).then((res) => {
       setLecture(res)
     })
-  },[])
+  }, [])
   return (
     <>
       <section className={styler.channel}>
@@ -40,8 +40,9 @@ const learn = () => {
                     <h1 className={styler.title}>{cour.head}</h1>
                     <p className={styler.description}>{cour.description}</p>
                   </div>
+
                   <div className={styler.skillSet}>
-                    <div className={styler.skillHead}>Skills to learn:</div>
+                    <p className={styler.skillHead}>Skills to learn:</p>
                     <div className={styler.skillsBox}>
                       {
                         cour.skills.map(skill => {
@@ -74,20 +75,21 @@ const learn = () => {
                     <h1 className={styler.title}>{lec.head}</h1>
                     <p className={styler.description}>{lec.description}</p>
                   </div>
-                  <div className={styler.skillSet}>
-                    <div className={styler.skillHead}>Skills to learn:</div>
-                    <div className={styler.skillsBox}>
-                      {
-                        lec.skills.map(skill => {
-                          return <Image src={skill.skillImg} width={200} height={200} className={styler.skill} title={skill.name}></Image>
-                        })
-                      }
-                    </div>
-                  </div>
-                  <div className={styler.btn}>
-                    <Link href={lec.link} target="_blank" className={styler.goBtn}>Start Watching</Link>
+                
+                <div className={styler.skillSet}>
+                  <div className={styler.skillHead}>Skills to learn:</div>
+                  <div className={styler.skillsBox}>
+                    {
+                      lec.skills.map(skill => {
+                        return <Image src={skill.skillImg} width={200} height={200} className={styler.skill} title={skill.name}></Image>
+                      })
+                    }
                   </div>
                 </div>
+                <div className={styler.btn}>
+                  <Link href={lec.link} target="_blank" className={styler.goBtn}>Start Watching</Link>
+                </div>
+              </div>
               </div>
             })
           }

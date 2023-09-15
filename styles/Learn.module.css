@@ -43,7 +43,7 @@
     flex-direction: row;
     height: max-content;
     width: 100%;
-    align-items: center;
+    /* align-items: center; */
     flex-wrap: wrap;
     justify-content: center;
     /* width: 100%; */
@@ -70,7 +70,7 @@
     color: rgb(248, 132, 0);
 }
 .imgContainer {
-    height: 24rem;
+    height: 30%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -101,8 +101,11 @@
     margin: 2rem;
     margin-bottom: 1rem;
     /* width: 100%; */
-    height: 20.751rem;
+    height: max-content;
     /* justify-content: center; */
+}
+.description{
+    height: max-content;
 }
 
 .skillHead{
@@ -128,6 +131,8 @@
     flex-direction: row;
     height: 75%;
     width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
     align-items: center;
 }
 .skill{

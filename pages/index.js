@@ -112,9 +112,7 @@ export default function Home() {
                   <p className={styler.infoHead}>{exp.title}</p>
                   <p className={styler.infoDesc}>{exp.description}</p>
                 </div>
-                <Link href={exp.link} className={styler.goBtn}>
-                  <p className={styler.btn}>Explore</p>
-                </Link>
+                <Link href={exp.link} className={styler.goBtn}>Explore</Link>
               </div>
             })
           }

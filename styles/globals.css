@@ -105,3 +105,38 @@ a {
   }
 }
 /* @media() */
+@media (max-width: 1298px){
+  html{
+    font-size: 50%;
+  }
+}
+@media (max-width: 1060px){
+  html{
+    font-size: 45%;
+  }
+}
+@media (max-width: 940px){
+  html{
+    font-size: 40%;
+  }
+}
+@media (max-width:790px){
+  html{
+    font-size: 30%;
+  }
+}
+@media (max-width:500px){
+  html{
+    font-size: 20%;
+  }
+}
+@media (max-width:330px){
+  html{
+    font-size: 15%;
+  }
+}
+@media (max-width:275px){
+  html{
+    font-size: 12%;
+  }
+}
