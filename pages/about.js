@@ -3,41 +3,41 @@ import Image from 'next/image'
 import styler from "../styles/About.module.css"
 import Link from 'next/link'
 
-const about = (props) => {
-  const [education, setEducation] = useState(props.eduFetchData)
-  const [extra, setExtra] = useState(props.extraFetchData)
-  const [skills, setSkills] = useState(props.skillFetchData)
-  const [additional, setAdditional] = useState(props.addFetchData)
+const about = () => {
+  const [education, setEducation] = useState([])
+  const [extra, setExtra] = useState([])
+  const [skills, setSkills] = useState({})
+  const [additional, setAdditional] = useState({})
 
-  // useEffect(() => {
-  //   fetch("/api/education").then((a) => {
-  //     return a.json()
-  //   }).then((res) => {
-  //     setEducation(res)
-  //   })
-  // }, [])
-  // useEffect(() => {
-  //   fetch("/api/extra").then((a) => {
-  //     return a.json()
-  //   }).then((res) => {
-  //     setExtra(res)
+  useEffect(() => {
+    fetch("/api/education").then((a) => {
+      return a.json()
+    }).then((res) => {
+      setEducation(res)
+    })
+  }, [])
+  useEffect(() => {
+    fetch("/api/extra").then((a) => {
+      return a.json()
+    }).then((res) => {
+      setExtra(res)
 
-  //   })
-  // }, [])
-  // useEffect(() => {
-  //   fetch("/api/aboutSkill").then((a) => {
-  //     return a.json()
-  //   }).then((res) => {
-  //     setSkills(res)
-  //   })
-  // }, [])
-  // useEffect(() => {
-  //   fetch("/api/aboutAdd").then((a) => {
-  //     return a.json()
-  //   }).then((res) => {
-  //     setAdditional(res)
-  //   })
-  // }, [])
+    })
+  }, [])
+  useEffect(() => {
+    fetch("/api/aboutSkill").then((a) => {
+      return a.json()
+    }).then((res) => {
+      setSkills(res)
+    })
+  }, [])
+  useEffect(() => {
+    fetch("/api/aboutAdd").then((a) => {
+      return a.json()
+    }).then((res) => {
+      setAdditional(res)
+    })
+  }, [])
   return (
     <>
       <section className={styler.about}>

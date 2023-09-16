@@ -100,4 +100,18 @@ const learn = () => {
   )
 }
 
+// export async function getServerSideProps(context){
+//   const protocol = context.req.headers['x-forwarded-proto'] || 'http';
+//   const host = context.req.headers.host;
+
+//   let coursesData = await fetch(`${protocol}://${host}/api/learnCourses`)
+//   let coursesFetchData = await coursesData.json()
+  
+//   let lecturesData = await fetch(`${protocol}://${host}/api/learnLectures`)
+//   let lecturesFetchData = await lecturesData.json()
+  
+//   return {
+//     props : {coursesFetchData,lecturesFetchData}
+//   }
+// }
 export default learn
