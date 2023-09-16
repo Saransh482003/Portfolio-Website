@@ -3,40 +3,41 @@ import Image from 'next/image'
 import styler from "../styles/About.module.css"
 import Link from 'next/link'
 
-const about = () => {
-  const [education, setEducation] = useState([])
-  const [extra, setExtra] = useState([])
-  const [skills, setSkills] = useState({})
-  const [additional, setAdditional] = useState({})
+const about = (props) => {
+  const [education, setEducation] = useState(props.eduFetchData)
+  const [extra, setExtra] = useState(props.extraFetchData)
+  const [skills, setSkills] = useState(props.skillFetchData)
+  const [additional, setAdditional] = useState(props.addFetchData)
 
-  useEffect(() => {
-    fetch("/api/education").then((a) => {
-      return a.json()
-    }).then((res) => {
-      setEducation(res)
-    })
-  }, [])
-  useEffect(() => {
-    fetch("/api/extra").then((a) => {
-      return a.json()
-    }).then((res) => {
-      setExtra(res)
-    })
-  }, [])
-  useEffect(() => {
-    fetch("/api/aboutSkill").then((a) => {
-      return a.json()
-    }).then((res) => {
-      setSkills(res)
-    })
-  }, [])
-  useEffect(() => {
-    fetch("/api/aboutAdd").then((a) => {
-      return a.json()
-    }).then((res) => {
-      setAdditional(res)
-    })
-  }, [])
+  // useEffect(() => {
+  //   fetch("/api/education").then((a) => {
+  //     return a.json()
+  //   }).then((res) => {
+  //     setEducation(res)
+  //   })
+  // }, [])
+  // useEffect(() => {
+  //   fetch("/api/extra").then((a) => {
+  //     return a.json()
+  //   }).then((res) => {
+  //     setExtra(res)
+
+  //   })
+  // }, [])
+  // useEffect(() => {
+  //   fetch("/api/aboutSkill").then((a) => {
+  //     return a.json()
+  //   }).then((res) => {
+  //     setSkills(res)
+  //   })
+  // }, [])
+  // useEffect(() => {
+  //   fetch("/api/aboutAdd").then((a) => {
+  //     return a.json()
+  //   }).then((res) => {
+  //     setAdditional(res)
+  //   })
+  // }, [])
   return (
     <>
       <section className={styler.about}>
@@ -133,6 +134,27 @@ const about = () => {
       </section>
     </>
   )
+}
+
+export async function getServerSideProps(context){
+  const protocol = context.req.headers['x-forwarded-proto'] || 'http';
+  const host = context.req.headers.host;
+
+  let eduData = await fetch(`${protocol}://${host}/api/education`)
+  let eduFetchData = await eduData.json()
+  
+  let extraData = await fetch(`${protocol}://${host}/api/extra`)
+  let extraFetchData = await extraData.json()
+  
+  let skillData = await fetch(`${protocol}://${host}/api/aboutSkill`)
+  let skillFetchData = await skillData.json()
+  
+  let addData = await fetch(`${protocol}://${host}/api/aboutAdd`)
+  let addFetchData = await addData.json()
+  
+  return {
+    props : {eduFetchData,extraFetchData,skillFetchData,addFetchData}
+  }
 }
 
 export default about

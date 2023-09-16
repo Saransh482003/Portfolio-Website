@@ -356,6 +356,14 @@ font-weight:500;
     .extraDesc{
         font-size: 120%;
     }
+    .addContainer{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .addSubContainer{
+        width: 35%;
+    }
 }
 /* @media (max-width:620px){
     .addContainer{

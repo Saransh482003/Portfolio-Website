@@ -41,8 +41,8 @@
 }
 .projectStatus{
     width: max-content;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 3rem;
+    padding-right: 3rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     font-weight: 500;
