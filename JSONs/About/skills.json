@@ -41,7 +41,7 @@
         },
         {
             "name": "Data Preprocessing",
-            "level": "Intermediate",
+            "level": "Advanced",
             "img": "/About/Skills/data_preprocessing.png"
         },
         {
@@ -70,7 +70,7 @@
         },
         {
             "name": "Deep Learning",
-            "level": "Beginner",
+            "level": "Intermediate",
             "img": "/About/Skills/dl.png"
         }
         
@@ -89,7 +89,7 @@
         },
         {
             "name": "Flask",
-            "level": "Intermediate",
+            "level": "Advanced",
             "img": "/About/Skills/flask.png"
         },
         {
