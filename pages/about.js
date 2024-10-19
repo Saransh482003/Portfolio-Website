@@ -40,8 +40,8 @@ const about = () => {
   }, [])
   return (
     <>
-      <section className={styler.about}>
-        <p className={styler.head}>ABOUT ME</p>
+      <section className={styler.banner}>
+        <p className={styler.pageHead}>ABOUT ME</p>
         <p className={styler.quote}>"Like a quill poised above an open page, my 'About Me' is a journey of discovery, where each word penned and every experience lived adds to the ever-growing narrative of who I am and who I aim to be."</p>
       </section>
       <section className={styler.edu}>

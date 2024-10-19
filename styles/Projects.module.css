@@ -183,6 +183,9 @@
     .quote{
       font-size: 1.5rem;
     }
+    .project{
+        width: 90%;
+    }
     .projectInfo{
         flex-direction: column-reverse;
         height: max-content;
