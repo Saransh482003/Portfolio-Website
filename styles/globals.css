@@ -25,7 +25,7 @@
 
   --primary-color: rgb(248, 132, 0);
   --card-radius: 2rem;
-  --soft-shadow: 0.25rem;
+  --soft-shadow: 0 5px 10px rgba(0,0,0,.22);
 
   --tile-start-rgb: 239, 245, 249;
   --tile-end-rgb: 228, 232, 233;
