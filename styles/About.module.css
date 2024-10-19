@@ -2,13 +2,17 @@
 .about{
     display: flex;
     flex-direction: column;
+    /* flex-wrap: wrap; */
     align-items: center;
     height: 30rem;
     justify-content: center;
+    background: 0rem 0rem;
     background-image: url("../public/Home_Cards/about.jpg");
     color: white;
     font-size: 4rem;
     font-weight: 900;
+    margin-bottom: 5rem;
+    margin-top: 10rem;
 }
 .quote{
     font-size: 1.8rem;
@@ -21,12 +25,14 @@
 
 /* Educational Background Section */
 .edu{
+    font-size: 1.6rem;
     display: flex;
     flex-direction: column;
-    height: max-content;
-    width: 100%;
-    font-size: 1.6rem;
     align-items: center;
+    height: max-content;
+    flex-wrap: wrap;
+    width: 100%;
+    /* font-size: 20px; */
     margin-bottom: 5rem;
 }
 .eduHead{
@@ -37,11 +43,11 @@
 .eduCard{
     display: flex;
     flex-direction: row;
-    border-radius: 3rem;
+    border-radius: var(--card-radius);
     height: max-content;
     font-size: 1.6rem;
     width: 75%;
-    box-shadow: 0rem 0.5rem 1rem rgb(94, 94, 94);
+    box-shadow:var(--soft-shadow);
     margin-bottom: 2rem;
 }
 .eduInfo{
@@ -101,8 +107,8 @@ font-weight:500;
     width: 29%;
     height: 44.8rem;
     margin: 3rem;
-    border-radius: 3rem;
-    box-shadow: 0rem 0.5rem 1rem rgb(94, 94, 94);
+    border-radius: var(--card-radius);
+    box-shadow:var(--soft-shadow);
 }
 
 .extraHead{
@@ -177,7 +183,7 @@ font-weight:500;
     flex-direction: row;
     flex-wrap: wrap;
     height: max-content;
-    border-radius: 1.5rem;
+    border-radius: var(--card-radius);
     border: 0.3rem solid green;
     border-top-left-radius: 0rem;
     /* justify-content: center; */
@@ -189,7 +195,7 @@ font-weight:500;
     display: flex;
     flex-direction: row;
     margin: 2rem;
-    border-radius: 50rem;
+    border-radius: var(--card-radius);
     border: 0.3rem solid green;
 }
 .skillImg{
@@ -229,7 +235,7 @@ font-weight:500;
     width: max-content;
     padding-left: 0.8rem;
     padding-right: 0.8rem;
-    border-radius: 4rem;
+    border-radius: var(--card-radius);
 }
 .add{
     display: flex;
@@ -256,10 +262,10 @@ font-weight:500;
     height: max-content;
     align-items: center;
     margin: 3rem;
-    border-radius: 5rem;
+    border-radius: var(--card-radius);
     border-bottom-left-radius: 8rem;
     border-bottom-right-radius: 8rem;
-    box-shadow: 0rem 0.5rem 1rem rgb(94, 94, 94);
+    box-shadow:var(--soft-shadow);
 }
 .addHead{
     height: 16.8rem;
@@ -292,7 +298,7 @@ font-weight:500;
     flex-direction: row;
     height: 8rem;
     width: 60%;
-    border-radius: 3rem;
+    border-radius: var(--card-radius);
     margin: 1.5rem;
     /* background-color: aqua; */
 }
@@ -324,50 +330,3 @@ font-weight:500;
     font-size: 2rem;
     margin-left: 1rem;
 }
-@media (max-width:820px){
-    .eduCard{
-        width: 95%;
-        font-size: 150%;
-        padding-bottom: 3rem;
-        border-radius: 4rem;
-    }
-    .eduCardHead{
-        font-size: 120%;
-    }
-    .eduCardName{
-        font-size: 120%;
-    }
-    .eduCardDesc{
-        font-size: 90%;
-    }
-    .extraContainer{
-        flex-direction: column;
-        align-items: center;
-    }
-    .extraCard{
-        height: max-content;
-        width: 50%;
-        font-size: 120%;
-        padding-bottom: 3rem;
-    }
-    .extraHead{
-        font-size: 150%;
-    }
-    .extraDesc{
-        font-size: 120%;
-    }
-    .addContainer{
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-    .addSubContainer{
-        width: 35%;
-    }
-}
-/* @media (max-width:620px){
-    .addContainer{
-        align-items: center;
-        flex-direction: column;
-    }
-} */

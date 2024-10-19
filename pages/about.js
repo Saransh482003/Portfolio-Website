@@ -136,25 +136,4 @@ const about = () => {
   )
 }
 
-export async function getServerSideProps(context){
-  const protocol = context.req.headers['x-forwarded-proto'] || 'http';
-  const host = context.req.headers.host;
-
-  let eduData = await fetch(`${protocol}://${host}/api/education`)
-  let eduFetchData = await eduData.json()
-  
-  let extraData = await fetch(`${protocol}://${host}/api/extra`)
-  let extraFetchData = await extraData.json()
-  
-  let skillData = await fetch(`${protocol}://${host}/api/aboutSkill`)
-  let skillFetchData = await skillData.json()
-  
-  let addData = await fetch(`${protocol}://${host}/api/aboutAdd`)
-  let addFetchData = await addData.json()
-  
-  return {
-    props : {eduFetchData,extraFetchData,skillFetchData,addFetchData}
-  }
-}
-
 export default about

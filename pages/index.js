@@ -101,7 +101,7 @@ export default function Home() {
       </section>
       {/* <hr></hr> */}
       <section className={styler.menu}>
-        <h1 className={styler.guide}>Exploration Guide</h1>
+        <h1 className={styler.guide}><span style={{ color: "var(--primary-color)" }}>Exploration</span> Guide</h1>
         <div className={styler.guide_body}>
 
           {

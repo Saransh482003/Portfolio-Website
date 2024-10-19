@@ -16,7 +16,7 @@ const contact = () => {
             <Image src="/Contact/phone.png" height={400} width={400} className={styler.img}></Image>
           </div>
           <div className={styler.info}>
-            <p className={styler.cont} style={{color:"rgb(248, 132, 0)"}}>+91 8178703402</p>
+            <Link href={"tel:+918178703402"} target='_blank' className={styler.cont} style={{color:"rgb(248, 132, 0)"}}>+91 8178703402</Link>
           </div>
         </div>
         
@@ -25,7 +25,7 @@ const contact = () => {
             <Image src="/Contact/mail.png" height={400} width={400} className={styler.img}></Image>
           </div>
           <div className={styler.info}>
-            <p className={styler.cont} style={{color:"#990000"}}>saini.saransh03@gmail .com</p>
+            <Link href={"mailto:saini.saransh03@gmail .com"} target='_blank' className={styler.cont} style={{color:"#990000"}}>saini.saransh03@gmail .com</Link>
           </div>
         </div>
 
@@ -34,7 +34,7 @@ const contact = () => {
             <Image src="/Contact/location.png" height={400} width={400} className={styler.img}></Image>
           </div>
           <div className={styler.info}>
-            <p className={styler.cont} style={{color:"green"}}>Delhi, India</p>
+            <Link href={"https://maps.app.goo.gl/DCp1RuU2rHe1UJu57"} target='_blank' className={styler.cont} style={{color:"green"}}>Delhi, India</Link>
           </div>
         </div>
         

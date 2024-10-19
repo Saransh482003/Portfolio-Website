@@ -14,7 +14,7 @@ const blog = () => {
   }, [])
   return (
     <>
-      <section className={styler.banner}>
+      <section className={styler.channel}>
         <p className={styler.pageHead}>BLOGS</p>
         <p className={styler.quote}>"In the blog of life, every post is an opportunity for self-improvement, and every comment we leave in our community's story enriches our narrative."</p>
       </section>
