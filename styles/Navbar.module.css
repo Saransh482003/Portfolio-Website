@@ -1,16 +1,22 @@
+.allNav{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: max-content;
+    position: fixed;
+    z-index: 6000;
+}
 .container{
+    display: flex;
+    align-items: center;
+    padding: 0.3rem 1rem;
+    height: 8rem;
+    width: 100%;
+    box-shadow: var(--soft-shadow);
+    position: fixed;
     top: 0px;
     left: 0px;
-    position: sticky;
-    width: 100%;
-    height: 8rem;
-    background-color: white;
-    color: rgb(0, 0, 0);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    z-index: 5000;
-      
+    background-color: white;      
 }
 .logo{  
     width: 6.5rem;
@@ -22,13 +28,13 @@
     margin: 1rem;
     font-family:"Poppins";
     font-weight: bolder;
-    color: rgb(250, 108, 13);
+    color: var(--primary-color);
     font-size: 2rem;
 }
 .profile{
     margin-left: 1.5rem;
     display: flex;
-    width: 20%;
+    width: 30%;
     flex-direction: row;
     align-items: center;
     float: left;
@@ -44,7 +50,7 @@
     font-family: "Poppins";
     margin: 1.5rem;
     text-align: right;
-    /* color: rgb(250, 108, 13); */
+    /* color: var(--primary-color); */
     color: black;
     font-weight: 500;
     font-size: 1.7rem;
@@ -52,12 +58,82 @@
 .link:hover{
     display: inline-block; /* Ensures padding affects only the bottom */
   padding-bottom: 0.4rem; /* Adjust the padding as needed for spacing */
-  border-bottom: 0.3rem solid rgb(250, 108, 13);
+  border-bottom: 0.3rem solid var(--primary-color);
 }
 .restCase{
-    width: 80%;
+    width: 70%;
     display: flex;
     flex-direction: row;
     align-items: right;
     justify-content: right;
+}
+.mobileMenu{
+    display: none;
+    height: 40%;
+    width: auto;
+}
+.menu{
+    display: none;
+    align-items: end;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    z-index: 100;
+    top: 8rem;
+    position: fixed;
+    transition: all .05s ease-in-out;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), white);
+}
+.menuList{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    height: 100vh;
+    width: max-content;
+    /* background-color: var(--primary-color); */
+    z-index: 4;
+    font-weight: 500;
+}
+.menuLink{
+    margin: 0.8rem 1rem;
+    margin-right: 5rem;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    transition: all .05s ease-in-out;
+    font-size: 2rem;
+}
+.menuLink:hover{
+    border-bottom: 0.2rem solid white;
+    /* color: #F55E4A; */
+    font-weight: 500;
+}
+.menuEnroll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: var(--primary-color);
+    padding: 0.3rem 1rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+}
+@media (max-width: 900px) {
+    .link{
+        display: none;
+    }
+    .mobileMenu{
+        display: flex;
+    }
+    .restCase{
+        width: 20%;
+    }
+    .profile{
+        width: 80%;
+    }
+}
+@media (min-width: 900px) {
+    .menu{
+        display: none !important;
+    }
 }

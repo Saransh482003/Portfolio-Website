@@ -16,7 +16,7 @@
     margin: 1rem;
     font-family:"Poppins";
     font-weight: bolder;
-    color: rgb(250, 108, 13);
+    color: var(--primary-color);
     font-size: 1.8rem;
 }
 .profile{

@@ -67,7 +67,7 @@
     transition: all 0.15s ease-out;
 }
 .card:hover .title{
-    color: rgb(248, 132, 0);
+    color: var(--primary-color);
 }
 .imgContainer {
     height: 30%;
@@ -180,15 +180,15 @@
     justify-content: center;
     align-items: center;
     background-color: white;
-    color: rgb(248, 132, 0);
-    border: 0.3rem solid rgb(248, 132, 0);
+    color: var(--primary-color);
+    border: 0.3rem solid var(--primary-color);
     border-radius: 3rem;
     cursor: pointer;
     transition: all 0.25s ease-in-out;
 }
 .goLecBtn:hover{
-    background-color: rgb(248, 132, 0);
+    background-color: var(--primary-color);
     color: white;
-    border: 0.3rem solid rgb(248, 132, 0);
+    border: 0.3rem solid var(--primary-color);
     border-radius: 3rem;
 }

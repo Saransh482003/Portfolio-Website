@@ -45,7 +45,7 @@
 .imgContainer{
     display: flex;
     flex-direction: column;
-    background-color: rgb(248, 132, 0);
+    background-color: var(--primary-color);
     border-radius: 100rem;
     align-items: center;
     justify-content: center;

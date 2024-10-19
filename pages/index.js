@@ -84,12 +84,12 @@ export default function Home() {
 
   return (
     <>
-      <section className={styler.section}>
+      <section className={styler.section} style={{ marginTop: "8rem" }}>
         <div className={styler.welcome}>
           <h1 className={styler.iam}>Hi! I am </h1>
           <h1 className={styler.name}>Saransh Saini</h1>
           <div className={styler.skillset}>
-            <h1 className={styler.iknow}>I know : </h1>
+            <h1 className={styler.iknow}>I know&nbsp;</h1>
             <h1 className={styler.skills} id='skiller'>Python</h1>
           </div>
           <p className={styler.intro}>Greetings! I'm a dedicated student passionate about Data Science, pursuing a BS in Data Science at IIT Madras and a B.Sc. in Data Analytics at DSEU. I share insights on my YouTube channel, guide learners as a Section Leader at Stanford University's "Code in Place," and organize coding events. Projects like "MaanSick" Mental Health App and "Anukaran" for auditory impairments reflect my tech-driven compassion. Currently scratch-coding a comprehensive Data Structure and Algorithm library to enhance my skills.</p>

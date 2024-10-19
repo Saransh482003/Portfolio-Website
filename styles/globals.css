@@ -22,6 +22,10 @@
     rgba(255, 255, 255, 0)
   );
 
+
+  --primary-color: rgb(248, 132, 0);
+  --card-radius: 2rem;
+
   --tile-start-rgb: 239, 245, 249;
   --tile-end-rgb: 228, 232, 233;
   --tile-border: conic-gradient(
@@ -80,13 +84,13 @@
 }
 
 
-
 html,body {
   background-color: white;
   margin: 0px;
   padding: 0px;
   color:black;
   font-family: "Poppins";
+  position: relative;
 }
 html{
   font-size: 62.5%;
@@ -102,51 +106,5 @@ a {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
-  }
-}
-/* @media() */
-@media (max-width: 1298px){
-  html{
-    font-size: 50%;
-  }
-}
-@media (max-width: 1060px){
-  html{
-    font-size: 45%;
-  }
-}
-@media (max-width: 940px){
-  html{
-    font-size: 40%;
-  }
-}
-@media (max-width:790px){
-  html{
-    font-size: 30%;
-  }
-}
-@media (max-width:500px){
-  html{
-    font-size: 20%;
-  }
-}
-@media (max-width:330px){
-  html{
-    font-size: 15%;
-  }
-}
-@media (max-width:275px){
-  html{
-    font-size: 12%;
-  }
-}
-@media (max-width:200px){
-  html{
-    font-size: 10%;
-  }
-}
-@media (max-width:150px){
-  html{
-    font-size: 8%;
   }
 }

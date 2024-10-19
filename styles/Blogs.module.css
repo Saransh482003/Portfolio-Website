@@ -67,7 +67,7 @@
   transition: all 0.2s ease-out;
 }
 .blogSlide:hover .blogHeader{
-  color: rgb(248, 132, 0);
+  color: var(--primary-color);
 }
 
 .blogDateAuthor{
