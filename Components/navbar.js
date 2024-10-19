@@ -31,12 +31,12 @@ const Navbar = () => {
       <hr className={styler.hr}></hr>
       <div className={styler.menu} style={{display: visible ? "flex" : "none"}}>
         <div className={styler.menuList}>
-          <Link href="/" className={styler.menuLink}>Home</Link>
-          <Link href="/about" className={styler.menuLink}>About Me</Link>
-          <Link href="/learn" className={styler.menuLink}>Learn</Link>
-          <Link href="/blogs" className={styler.menuLink}>Blogs</Link>
-          <Link href="/projects" className={styler.menuLink}>My Projects</Link>
-          <Link href="/contact" className={styler.menuLink}>Contact Me</Link>
+          <Link href="/" className={styler.menuLink} onClick={toggleMenu}>Home</Link>
+          <Link href="/about" className={styler.menuLink} onClick={toggleMenu}>About Me</Link>
+          <Link href="/learn" className={styler.menuLink} onClick={toggleMenu}>Learn</Link>
+          <Link href="/blogs" className={styler.menuLink} onClick={toggleMenu}>Blogs</Link>
+          <Link href="/projects" className={styler.menuLink} onClick={toggleMenu}>My Projects</Link>
+          <Link href="/contact" className={styler.menuLink} onClick={toggleMenu}>Contact Me</Link>
         </div>
       </div>
     </div>
