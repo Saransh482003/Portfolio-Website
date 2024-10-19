@@ -82,7 +82,7 @@
     top: 8rem;
     position: fixed;
     transition: all .05s ease-in-out;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), white);
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.25),rgba(255, 255, 255, 0.75), white);
 }
 .menuList{
     display: flex;

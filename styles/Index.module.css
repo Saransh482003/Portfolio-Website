@@ -12,7 +12,6 @@
     flex-direction: column;
     justify-content: center;
     padding: 2.5rem;
-    /* background-color: aqua; */
 }
 .pic{
     display: flex;
@@ -100,11 +99,8 @@
     margin: 2rem;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     width: 30.3rem;
     height: 57rem;
-    /* background-color: transparent; */
-    /* background-color: aqua; */
     border-radius: var(--card-radius);
     box-shadow: 0rem 0.5rem 1rem rgb(94, 94, 94);
     text-align: left;
@@ -164,7 +160,7 @@
         width: 100%;
     }
     .skillset > h1{
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
     .section p{
         font-size: 90%;
@@ -174,34 +170,3 @@
         padding-bottom: 2rem;
     }
 }
-/* @media (max-width:900px){
-    .section{
-        align-items: center;
-      flex-direction: column;
-    }
-    .welcome{
-        width: 80%;
-        font-size: 150%;
-    }
-    .pic{
-        width: 60%;
-    }
-    .guide_body{
-        flex-direction: column;
-    }
-    .menu{
-        font-size: 150%;
-    }
-    .infoHead{
-        font-size: 200%;
-    }
-    .card{
-        height: max-content;
-        padding-bottom: 3rem;
-        width: 40%;
-    }
-    .link{
-        width: 50%;
-        font-size: 150%;
-    }
-  } */
