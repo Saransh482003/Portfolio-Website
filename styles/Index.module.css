@@ -99,7 +99,7 @@
     margin: 2rem;
     display: flex;
     flex-direction: column;
-    width: 30.3rem;
+    width: 29rem;
     height: 57rem;
     border-radius: var(--card-radius);
     box-shadow: var(--soft-shadow);
