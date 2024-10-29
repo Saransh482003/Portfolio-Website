@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className={styler.container}>
         <Link href="/" className={styler.profile}>
             <Image src="/logo.jpg" alt="Logo" width={233} height={233} className={styler.logo}></Image>
-            <span className={styler.name}>Data Ki Science</span>
+            {/* <span className={styler.name}>Data Ki Science</span> */}
         </Link>
         <div className={styler.restCase}>
           <div className={styler.link_box}>
