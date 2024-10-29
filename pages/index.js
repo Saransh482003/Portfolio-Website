@@ -87,7 +87,7 @@ export default function Home() {
       <section className={styler.section} style={{ marginTop: "8rem" }}>
         <div className={styler.welcome}>
           <h1 className={styler.iam}>Hi! I am </h1>
-          {/* <h1 className={styler.name}>Saransh Saini</h1> */}
+          <h1 className={styler.name}>Saransh Saini</h1>
           <div className={styler.skillset}>
             <h1 className={styler.iknow}>I know&nbsp;</h1>
             <h1 className={styler.skills} id='skiller'>Python</h1>
