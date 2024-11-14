@@ -23,7 +23,7 @@
     background-image: url("../public/Home_Cards/about.jpg");
     background-position: center;
     background-size: cover;
-    filter: blur(4px);
+    filter: blur(2px);
     z-index: -1;
   }
   .quote {
