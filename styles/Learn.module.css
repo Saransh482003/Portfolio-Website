@@ -73,7 +73,7 @@
     align-items: center;
     border-radius: var(--card-radius);
     margin: 3rem;
-    box-shadow: 0rem 0.5rem 1rem rgb(94, 94, 94);
+    box-shadow: var(--soft-shadow);
     cursor: pointer;
     transition: all 0.8s ease-out;
 }

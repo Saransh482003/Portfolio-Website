@@ -25,7 +25,7 @@ const contact = () => {
             <Image src="/Contact/mail.png" height={400} width={400} className={styler.img}></Image>
           </div>
           <div className={styler.info}>
-            <Link href={"mailto:saini.saransh03@gmail .com"} target='_blank' className={styler.cont} style={{color:"#990000"}}>saini.saransh03@gmail .com</Link>
+            <Link href={"mailto:saini.saransh03@gmail.com"} target='_blank' className={styler.cont} style={{color:"#990000"}}>saini.saransh03@gmail .com</Link>
           </div>
         </div>
 
