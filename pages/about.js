@@ -110,7 +110,7 @@ const about = () => {
         <h1 className={styler.eduHead}>Additional Information</h1>
         <div className={styler.addContainer}>
           {
-            Object.keys(additional).filter(k => !k.endsWith(" Col")).map((addition) => {
+            Object.keys(additional).filter(k => !k.endsWith(" Col")).slice(0,2).map((addition) => {
               return <div className={styler.addSubContainer}>
                 <div className={styler.addHead} style={{ backgroundColor: additional[addition.concat(" Col")] }}>{addition}</div>
                 <div className={styler.addContent}>
@@ -119,6 +119,27 @@ const about = () => {
                       return <div className={styler.addCard}>
                         <div className={styler.addImg} style={{ backgroundColor: additional[addition.concat(" Col")] }}>
                           <Image src={items.img} width={200} height={200} className={styler.addImager} alt={items.name}></Image>
+                        </div>
+                        <div className={styler.addInfo}>
+                          <p className={styler.addName}>{items.name}</p>
+                        </div>
+                      </div>
+                    })
+                  }
+                </div>
+              </div>
+            })
+          }
+          {
+            Object.keys(additional).filter(k => !k.endsWith(" Col")).slice(2,3).map((addition) => {
+              return <div className={styler.addSubContainer}>
+                <div className={styler.addHead} style={{ backgroundColor: additional[addition.concat(" Col")] }}>{addition}</div>
+                <div className={styler.addContent}>
+                  {
+                    additional[addition].map((items) => {
+                      return <div className={styler.addCard}>
+                        <div className={styler.addImg} style={{ backgroundColor: additional[addition.concat(" Col")]}}>
+                          <img src={items.img} width={200} height={200} className={styler.addImager} alt={items.name} style={{ filter: "none", width: "100%"}}/>
                         </div>
                         <div className={styler.addInfo}>
                           <p className={styler.addName}>{items.name}</p>
