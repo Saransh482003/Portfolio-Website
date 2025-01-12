@@ -35,15 +35,15 @@
     "Languages Known Col":"black",
     "Languages Known": [
         {
-            "name": "Hindi [हि]",
+            "name": "Hindi",
             "img": "/About/Additional/india-flag.jpg"
         },
         {
-            "name": "English [En]",
+            "name": "English",
             "img": "/About/Additional/america-flag.jpg"
         },
 	{
-            "name": "German [De]",
+            "name": "German",
             "img": "/About/Additional/german-flag.png"
         }
         
