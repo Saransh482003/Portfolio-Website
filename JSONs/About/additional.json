@@ -36,15 +36,15 @@
     "Languages Known": [
         {
             "name": "Hindi",
-            "img": "/About/Additional/hindi.png"
+            "img": "/About/Additional/india-flag.jpg"
         },
         {
             "name": "English",
-            "img": "/About/Additional/english.png"
+            "img": "/About/Additional/english-flag.jpg"
         },
 	{
-            "name": "French",
-            "img": "/About/Additional/french.png"
+            "name": "German",
+            "img": "/About/Additional/german-flag.png"
         }
         
     ]
