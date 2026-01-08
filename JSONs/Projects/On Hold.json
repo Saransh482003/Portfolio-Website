@@ -4,7 +4,7 @@
         "date":"April 2023 - Present",
         "type":"Individual",
         "projImg":"/Projects/placeholder.png",
-        "description":"I'm currently immersed in an ambitious project to build a comprehensive machine learning library completely from scratch. This endeavor involves coding each machine learning algorithm by hand, without reliance on external frameworks. It's a deep dive into the inner workings of machine learning, aimed at creating an educational and practical resource for the community. \nThe project is continuously evolving, with significant progress made in implementing core algorithms, including linear regression and neural networks. The ultimate goal is to provide an invaluable tool for learning and real-world machine learning applications."   ,
+        "description":"In-progress ML library with from-scratch implementations of core algorithms such as linear regression and neural networks, independent of external frameworks.",
         "skills":[
             {
                 "name":"Python",

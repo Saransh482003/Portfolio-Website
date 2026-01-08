@@ -1,20 +1,20 @@
 [
     {
+        "head":"BharatGen 2025 Hackathon",
+        "description":"Secured 2nd runner-up (₹30,000) for CureCue, an offline-first AI adherence assistant that blends computer vision, voice inputs, and clinician analytics.",
+        "img":"/About/Extra_Curricular/bharatgen.png",
+        "link":"https://linkedin/"
+    },
+    {
+        "head":"CureCue Research Publication",
+        "description":"Published CureCue’s multi-model pipeline on ResearchGate, detailing YOLOv8 (92.3% mAP) + Gemini 2.0 Flash workflows for patient self-care.",
+        "img":"/About/Extra_Curricular/ResearchGate.png",
+        "link":"https://www.researchgate.net/"
+    },
+    {
         "head":"Educational Youtube Channel",
-        "description":"I have a YouTube channel where I teach concepts of Data Science which includes Programming Languages like Python, SQL, and Machine Learning concepts as well. I believe that teaching is the best form of learning.",
+        "description":"Creator of 'Data Ki Science' on YouTube, teaching Python, SQL, and machine learning concepts through hands-on walkthroughs.",
         "img":"/About/Extra_Curricular/YT.jpg",
         "link":"https://www.youtube.com/channel/UC3VwXRxvSJ2YEGGZ267MVSg"
-    },
-    {
-        "head":"Code in Place Section Leader",
-        "description":"I volunteered as a Section Leader in Stanford University’s course named Code in Place. It is a course spanning 6 weeks of learning into programming. I was allotted a section of 16 students, from all over the world, to teach Python programming language.",
-        "img":"/About/Extra_Curricular/Stanford.jpg",
-        "link":"https://www.linkedin.com/posts/saranshsaini48_code-in-place-session-leader-certificate-activity-7077550584693686273-uAkO?utm_source=share&utm_medium=member_desktop"
-    },
-    {
-        "head":"Code Spardha Organiser",
-        "description":"Lead the organizing team of an Online Coding Competition named 'Code Spardha' on 28th May 2022 and it’s second instalment on 7 January 2023. 300+ participants from all over Delhi participated in the competition.",
-        "img":"/About/Extra_Curricular/Code%20Spardha%20Banner%20Edited.png",
-        "link":"https://codespardha.netlify.app/"
     }
 ]

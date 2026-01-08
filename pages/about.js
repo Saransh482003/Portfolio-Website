@@ -68,7 +68,7 @@ const about = () => {
           {extra.map((ex, ind) => {
             return <Link href={ex.link} target='_blank' className={styler.extraCard}>
               <div className={styler.extraImg}>
-                <Image src={ex.img} width={920} height={404} alt={ex.head} className={styler.extraImger}></Image>
+                <Image src={ex.img} width={1000} height={4040} alt={ex.head} className={styler.extraImger}></Image>
               </div>
               <div className={styler.extraInfo}>
                 <h1 className={styler.extraHead}>{ex.head}</h1>

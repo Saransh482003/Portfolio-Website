@@ -2,17 +2,17 @@
     {
         "program":"BS Degree in Data Science and Application",
         "name":"Indian Institute of Technology Madras",
-        "duration":"2022 - Present",
+        "duration":"Jan 2022 - Apr 2026",
         "years":"4 Years",
-        "description":"Currently, I am immersed in a transformative educational journey at the prestigious IIT Madras, pursuing a comprehensive Bachelor of Science in Programming and Data Science. This four-year program is equipping me with a profound understanding of programming intricacies, data analysis, and scientific methodologies. As I progress through its dynamic curriculum, which spans foundational, diploma, and degree levels, I am engaged in interactive online live classes, immersive projects, and credit-based courses. This experience is molding me into a skilled professional. My commitment to excellence and my passion for learning are driving me to embrace every facet of this educational odyssey with enthusiasm and dedication.",
+        "description":"Bachelor of Science (8.75 CGPA) spanning programming, statistics, machine learning, and scientific computing through IIT Madras' online degree with capstone projects.",
         "img":"/About/Educational_Background/IITM.png"
     },
     {
         "program":"B.Sc. Degree  in Data Analytics",
         "name":"Delhi Skill and Entrepreneurship University",
-        "duration":"2021 - Present",
+        "duration":"Dec 2021 - Dec 2024",
         "years":"3 Years",
-        "description":"At Delhi Skill and Entrepreneurship University (DSEU). This program equips me with robust knowledge in data management, exploratory data analysis, automation, predictive analytics, and the use of AI algorithms. Supported by industry experts, the pedagogy emphasizes real-world examples, hands-on projects, and essential soft skills development. As data continues to grow exponentially in various formats, this program empowers me to excel in areas such as text mining, social media analytics, and more.",
+        "description":"B.Sc. in Data Analytics (8.8 CGPA) emphasizing data management, exploratory analysis, automation, predictive analytics, and AI projects with industry-driven coursework.",
         "img":"/About/Educational_Background/DSEU.png"
     },
     {
@@ -20,7 +20,7 @@
         "name":"Vikas Bharat Public School",
         "duration":"2020 - 2021",
         "years":"1 Year",
-        "description":"I Studied Physics, Chemistry and Machematics combination along with Informatics Practices optional. Scored 92% score of best 5. My school has been instrumental in fueling my interest in technology and programming. Its supportive environment and dedicated educators have played a significant role in nurturing my passion. I owe a major portion of my skills and enthusiasm to the strong foundation provided by my school, which has ignited my curiosity and fueled my drive to excel in the world of technology.",
+        "description":"Completed Senior Secondary (CBSE) with Physics, Chemistry, Mathematics, and Informatics Practices; scored 92% (best of five subjects).",
         "img":"/About/Educational_Background/VBPS.png"
     }
 ]
