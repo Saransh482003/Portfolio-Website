@@ -9,7 +9,7 @@ import Link from 'next/link'
 import { resolve } from 'styled-jsx/css'
 
 const inter = Inter({ subsets: ['latin'] })
-const skills = ['Python', 'Java', 'JavaScript', 'MS Excel', 'MySQL', 'Data Preprocessing', 'DSA', 'Machine Learning', 'Deep Learning', 'Android App Development', 'Full Stack Development', "ReactJS", "NextJS"]
+const skills = ['Python', 'Java', 'JavaScript', 'Cypher', 'PyTorch', 'Hugging Face', 'YOLO', 'RAG', 'LangChain', 'Agents', 'MLOps', 'Docker', 'FastAPI', 'Next JS']
 const maxString = Math.max(...skills.map(x => x.length))
 
 export default function Home() {
@@ -92,7 +92,7 @@ export default function Home() {
             <h1 className={styler.iknow}>I know&nbsp;</h1>
             <h1 className={styler.skills} id='skiller'>Python</h1>
           </div>
-          <p className={styler.intro}>Greetings! I'm a dedicated student passionate about Data Science, pursuing a BS in Data Science at IIT Madras and a B.Sc. in Data Analytics at DSEU. I share insights on my YouTube channel, guide learners as a Section Leader at Stanford University's "Code in Place," and organize coding events. Projects like "MaanSick" Mental Health App and "Anukaran" for auditory impairments reflect my tech-driven compassion. Currently scratch-coding a comprehensive Data Structure and Algorithm library to enhance my skills.</p>
+          <p className={styler.intro}>Greetings! I'm an AI Engineer with hands-on experience building LLM-powered applications, retrieval-augmented generation pipelines, and multimodal AI systems across healthcare and educational domains. Worked on knowledge graph retrieval, semantic search, prompt-driven workflows, and user-facing AI products using Python, Neo4j, PyTorch, and LLM APIs. Pursuing a BS in Data Science at IIT Madras.</p>
           <p className={styler.wel}>Welcome to my journey of learning, leadership, and innovation!!!</p>
         </div>
         <div className={styler.pic}>
@@ -106,7 +106,7 @@ export default function Home() {
 
           {
             explore.map((exp, index) => {
-              return <div className={styler.card}>
+              return <div key={index} className={styler.card}>
                 <Image src={exp.img} width={1076} height={917} alt={exp.title} className={styler.cardImg}></Image>
                 <div className={styler.cardInfo}>
                   <p className={styler.infoHead}>{exp.title}</p>

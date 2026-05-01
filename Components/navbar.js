@@ -21,7 +21,6 @@ const Navbar = () => {
           <Link href="/" className={styler.link}>Home</Link>
           <Link href="/about" className={styler.link}>About Me</Link>
           <Link href="/learn" className={styler.link}>Learn</Link>
-          <Link href="/blogs" className={styler.link}>Blogs</Link>
           <Link href="/projects" className={styler.link}>My Projects</Link>
           <Link href="/contact" className={styler.link}>Contact Me</Link>
           <Image src= "/Home_Cards/menu.png" height={50} width={50} alt="" className={styler.mobileMenu} onClick={toggleMenu}></Image>
@@ -34,7 +33,6 @@ const Navbar = () => {
           <Link href="/" className={styler.menuLink} onClick={toggleMenu}>Home</Link>
           <Link href="/about" className={styler.menuLink} onClick={toggleMenu}>About Me</Link>
           <Link href="/learn" className={styler.menuLink} onClick={toggleMenu}>Learn</Link>
-          <Link href="/blogs" className={styler.menuLink} onClick={toggleMenu}>Blogs</Link>
           <Link href="/projects" className={styler.menuLink} onClick={toggleMenu}>My Projects</Link>
           <Link href="/contact" className={styler.menuLink} onClick={toggleMenu}>Contact Me</Link>
         </div>

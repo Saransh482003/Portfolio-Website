@@ -1,20 +1,32 @@
 [
     {
-        "head":"BharatGen 2025 Hackathon",
-        "description":"Secured 2nd runner-up (₹30,000) for CureCue, an offline-first AI adherence assistant that blends computer vision, voice inputs, and clinician analytics.",
+        "head":"AI/ML & Full-Stack Intern",
+        "description":"Healthcare Technology Innovation Centre, IITM RP (Jun 2025 - Present) | Implemented RaptorRAG & GraphRAG with Neo4j. Assisted in Network Connectivity module of Organ Monitoring Device.",
+        "img":"/About/Extra_Curricular/htic.jpg",
+        "link":""
+    },
+    {
+        "head":"Teaching Assistant",
+        "description":"IIT Madras (Jan 2025 - May 2025) | Taught Tools in Data Science to 1500+ students (LLMs, Data Scraping). Evaluated bulk assignments maintaining academic integrity.",
+        "img":"/About/Educational_Background/IITM.png",
+        "link":""
+    },
+    {
+        "head":"Web Development Intern",
+        "description":"NEXT IAS (Jan 2024 - Apr 2024) | Boosted event registrations by 15% through UI/UX improvements. Designed and developed new web pages.",
+        "img":"/About/Extra_Curricular/nextias.jpg",
+        "link":""
+    },
+    {
+        "head":"BharatGen 2025 Hackathon (2nd Runner Up)",
+        "description":"Secured 2nd runner-up (₹30,000) for CureCue, an offline-first AI adherence assistant.",
         "img":"/About/Extra_Curricular/bharatgen.png",
-        "link":"https://linkedin/"
+        "link":""
     },
     {
-        "head":"CureCue Research Publication",
-        "description":"Published CureCue’s multi-model pipeline on ResearchGate, detailing YOLOv8 (92.3% mAP) + Gemini 2.0 Flash workflows for patient self-care.",
+        "head":"Research Publication",
+        "description":"Published multi-model pipeline integration of YOLOv8 and Gemini 2.0 Flash for automated patient self-care.",
         "img":"/About/Extra_Curricular/ResearchGate.png",
-        "link":"https://www.researchgate.net/"
-    },
-    {
-        "head":"Educational Youtube Channel",
-        "description":"Creator of 'Data Ki Science' on YouTube, teaching Python, SQL, and machine learning concepts through hands-on walkthroughs.",
-        "img":"/About/Extra_Curricular/YT.jpg",
-        "link":"https://www.youtube.com/channel/UC3VwXRxvSJ2YEGGZ267MVSg"
+        "link":""
     }
 ]

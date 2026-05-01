@@ -1,0 +1,200 @@
+[
+  {
+    "title": "Action-Oriented Indoor Navigation Assistance",
+    "date": "Mar–Apr 2026",
+    "type": "AI&DL",
+    "description": "Developed an indoor navigation system for visually impaired individuals using YOLO-based object detection and monocular depth estimation models.\nIntegrated multiple modules into an end-to-end pipeline with real-time inference and text-to-speech feedback for actionable navigation assistance.",
+    "projImg": "/Home_Cards/projects.jpg",
+    "skills": [
+      {
+        "name": "Python",
+        "img": "/Learn/skills/python.png"
+      },
+      {
+        "name": "Deep Learning",
+        "img": "/Learn/skills/dl.png"
+      }
+    ],
+    "link": "https://github.com/Saransh482003/Group-4-DS-and-AI-Lab-Project"
+  },
+  {
+    "title": "VascCoach: Knowledge Graph-based RAG System",
+    "date": "Dec 2025",
+    "type": "LLM",
+    "description": "Built a RAPTOR-based Retrieval-Augmented Generation (RAG) system over 70+ medical research papers using hierarchical summarization.\nExplored GraphRAG using Neo4j to enhance retrieval accuracy and enable structured querying over scientific literature.",
+    "projImg": "/Home_Cards/projects.jpg",
+    "skills": [
+      {
+        "name": "Python",
+        "img": "/Learn/skills/python.png"
+      },
+      {
+        "name": "Machine Learning",
+        "img": "/Learn/skills/ml.png"
+      }
+    ],
+    "link": "https://github.com/Saransh482003/htic-raptor-rag"
+  },
+  {
+    "title": "Indoor Depth Estimation Challenge",
+    "date": "Dec 2025",
+    "type": "AI&DL",
+    "description": "Developed a multi-stage pipeline combining MPRNet for image restoration and Depth Anything V2 for monocular depth estimation.\nEngineered preprocessing techniques including CLAHE and Gaussian smoothing to improve robustness on noisy real-world images.",
+    "projImg": "/Home_Cards/projects.jpg",
+    "skills": [
+      {
+        "name": "Python",
+        "img": "/Learn/skills/python.png"
+      },
+      {
+        "name": "Deep Learning",
+        "img": "/Learn/skills/dl.png"
+      }
+    ],
+    "link": "https://github.com/Saransh482003"
+  },
+  {
+    "title": "Agricultural Pests Detection",
+    "date": "Nov 2025",
+    "type": "AI&DL",
+    "description": "Built a YOLOv8-based object detection model to identify 24 pest species across complex agricultural environments.\nHandled high variability in lighting, foliage, and soil backgrounds to achieve robust detection performance.",
+    "projImg": "/Home_Cards/projects.jpg",
+    "skills": [
+      {
+        "name": "Python",
+        "img": "/Learn/skills/python.png"
+      },
+      {
+        "name": "Deep Learning",
+        "img": "/Learn/skills/dl.png"
+      }
+    ],
+    "link": "https://github.com/Saransh482003"
+  },
+  {
+    "title": "Automatic Disfluency Detection",
+    "date": "Nov 2025",
+    "type": "AI&DL",
+    "description": "Designed a system combining Whisper ASR and mT5 transformer models to correct speech disfluencies.\nImproved model learning by training on aligned clean transcripts and noisy ASR outputs to capture semantic consistency.",
+    "projImg": "/Home_Cards/projects.jpg",
+    "skills": [
+      {
+        "name": "Python",
+        "img": "/Learn/skills/python.png"
+      },
+      {
+        "name": "Machine Learning",
+        "img": "/Learn/skills/ml.png"
+      }
+    ],
+    "link": "https://colab.research.google.com/drive/1Sw8Gs3mTnFePOh7vsVRCwC_cLk76oiOO"
+  },
+  {
+    "title": "SCS Organ Monitoring System",
+    "date": "Oct 2025",
+    "type": "Full Stack",
+    "description": "Built a real-time monitoring dashboard for organ vitals (pH, temperature, humidity) with GPS tracking during transport.\nDeveloped a telemetry pipeline integrating Arduino with Firebase via HTTP requests for live data visualization.",
+    "projImg": "/Home_Cards/projects.jpg",
+    "skills": [
+      {
+        "name": "JavaScript",
+        "img": "/Learn/skills/js.png"
+      },
+      {
+        "name": "React JS",
+        "img": "/Learn/skills/reactjs.png"
+      }
+    ],
+    "link": "https://github.com/Saransh482003"
+  },
+  {
+    "title": "TA-Sim: IITM TA Interview Simulator",
+    "date": "Sep 2025",
+    "type": "LLM",
+    "description": "Developed an interactive ML interview simulator using Next.js and Flask with automated evaluation.\nImplemented a RAG pipeline using ChromaDB and Ollama (LLaMA 3) for contextual feedback generation.",
+    "projImg": "/Home_Cards/projects.jpg",
+    "skills": [
+      {
+        "name": "Next JS",
+        "img": "/Learn/skills/nextjs.png"
+      },
+      {
+        "name": "Flask",
+        "img": "/Learn/skills/flask.png"
+      }
+    ],
+    "link": "https://github.com/Saransh482003/iitm-ta-interview-simulator"
+  },
+  {
+    "title": "Shravan: AI Companion for Elderly Care",
+    "date": "Aug 2025",
+    "type": "Full Stack",
+    "description": "Built a full-stack healthcare platform using Flutter and Flask with an AI-powered assistant and medical chatbot.\nDeveloped a multi-layer web scraping system using Selenium and LLM-based extraction for automated doctor discovery.",
+    "projImg": "/Home_Cards/projects.jpg",
+    "skills": [
+      {
+        "name": "Flutter",
+        "img": "/Learn/skills/flutter.png"
+      },
+      {
+        "name": "Flask",
+        "img": "/Learn/skills/flask.png"
+      }
+    ],
+    "link": "https://github.com/Saransh482003"
+  },
+  {
+    "title": "Heart Disease Detection MLOps Pipeline",
+    "date": "Aug 2025",
+    "type": "Full Stack",
+    "description": "Deployed a production-grade ML pipeline on GCP using Docker and Kubernetes (GKE) for scalable inference.\nIntegrated MLflow and Evidently AI for experiment tracking and real-time monitoring of data drift and performance.",
+    "projImg": "/Home_Cards/projects.jpg",
+    "skills": [
+      {
+        "name": "Python",
+        "img": "/Learn/skills/python.png"
+      },
+      {
+        "name": "Machine Learning",
+        "img": "/Learn/skills/ml.png"
+      }
+    ],
+    "link": "https://github.com/Saransh482003/22F1001123_IITMBS_MLOPS_OPPE2"
+  },
+  {
+    "title": "ACT Lab Website: Semantic Search Engine",
+    "date": "Jul 2025",
+    "type": "Full Stack",
+    "description": "Built a full-stack platform using Next.js with dynamic APIs for research data and clinical content.\nDeveloped a semantic search engine using vector embeddings and cosine similarity for improved information retrieval.",
+    "projImg": "/Home_Cards/projects.jpg",
+    "skills": [
+      {
+        "name": "Next JS",
+        "img": "/Learn/skills/nextjs.png"
+      },
+      {
+        "name": "Machine Learning",
+        "img": "/Learn/skills/ml.png"
+      }
+    ],
+    "link": "https://github.com/Saransh482003"
+  },
+  {
+    "title": "CureCue: Medical Adherence Assistant",
+    "date": "Jun 2025",
+    "type": "LLM",
+    "description": "Developed a mobile-first AI system using YOLOv8 and PaddleOCR for medicine identification and expiry tracking.\nIntegrated Gemini 2.0 Flash for voice-based interaction and automated medication scheduling.",
+    "projImg": "/Home_Cards/projects.jpg",
+    "skills": [
+      {
+        "name": "Python",
+        "img": "/Learn/skills/python.png"
+      },
+      {
+        "name": "Deep Learning",
+        "img": "/Learn/skills/dl.png"
+      }
+    ],
+    "link": "https://github.com/Saransh482003"
+  }
+]

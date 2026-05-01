@@ -42,13 +42,13 @@ const about = () => {
     <>
       <section className={styler.banner}>
         <p className={styler.pageHead}>ABOUT ME</p>
-        <p className={styler.quote}>"Like a quill poised above an open page, my 'About Me' is a journey of discovery, where each word penned and every experience lived adds to the ever-growing narrative of who I am and who I aim to be."</p>
+        <p className={styler.quote}>"Passionate about leveraging Artificial Intelligence to solve real-world problems. My journey is fueled by continuous learning, building intelligent systems, and pushing the boundaries of what's possible."</p>
       </section>
       <section className={styler.edu}>
         <h1 className={styler.eduHead}>Educational Background</h1>
         {
           education.map((edu, ind) => {
-            return <div className={styler.eduCard}>
+            return <div key={ind} className={styler.eduCard}>
               <div className={styler.eduInfo}>
                 <h1 className={styler.eduCardHead}>{edu.program}</h1>
                 <p className={styler.eduCardName}>{edu.name}</p>
@@ -63,12 +63,12 @@ const about = () => {
         }
       </section>
       <section className={styler.extra} id="extraSuper">
-        <h1 className={styler.eduHead}>Extra Curricular Activities</h1>
+        <h1 className={styler.eduHead}>Experience & Achievements</h1>
         <div className={styler.extraContainer} id="extraCon">
           {extra.map((ex, ind) => {
-            return <Link href={ex.link} target='_blank' className={styler.extraCard}>
+            return <Link key={ind} href={ex.link || "#"} target='_blank' className={styler.extraCard}>
               <div className={styler.extraImg}>
-                <Image src={ex.img} width={1000} height={4040} alt={ex.head} className={styler.extraImger}></Image>
+                <Image src={ex.img} width={400} height={400} alt={ex.head} className={styler.extraImger}></Image>
               </div>
               <div className={styler.extraInfo}>
                 <h1 className={styler.extraHead}>{ex.head}</h1>

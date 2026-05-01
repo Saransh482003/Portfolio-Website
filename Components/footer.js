@@ -10,7 +10,7 @@ const Footer = () => {
                 {/* <span className={styler.namer}>Saransh Saini</span> */}
             </div>
             <span className={styler.footerDivider}></span>
-            <p className={styler.copyright}>Copyright © 2023 TheSaranshSaini.com</p>
+            <p className={styler.copyright}>Copyright © 2026 TheSaranshSaini.com</p>
         </footer>
     )
 }

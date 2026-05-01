@@ -2,14 +2,8 @@
 import *  as fs from "fs"
 import path from "path"
 export default async function handler(req, res) {
-  let allProjects = []
-  for (let i of ["Completed","Ongoing","On Hold","Future Plans"]){
-    const filePath  = path.join(process.cwd(),"JSONs","Projects",`${i}.json`)
-    let data = fs.promises.readFile(filePath,"utf-8")
-    data = await data
-    allProjects.push(JSON.parse(data))
-  }
-
-
+  const filePath  = path.join(process.cwd(),"JSONs","Projects","AllProjects.json")
+  let data = await fs.promises.readFile(filePath,"utf-8")
+  let allProjects = JSON.parse(data)
   res.status(200).json(allProjects)
 }

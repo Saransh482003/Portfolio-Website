@@ -1,121 +1,39 @@
-{   "Programming Languages Col":"green",
-    "Programming Languages": [
-        {
-            "name": "Python",
-            "level": "Advanced",
-            "img": "/About/Skills/python.png"
-        },
-        {
-            "name": "Java",
-            "level": "Advanced",
-            "img": "/About/Skills/java.png"
-        },
-        {
-            "name": "JavaScript",
-            "level": "Advanced",
-            "img": "/About/Skills/js.png"
-        },
-	{
-            "name": "Dart",
-            "level": "Intermediate",
-            "img": "/About/Skills/dart.png"
-        },
-        {
-            "name": "R",
-            "level": "Beginner",
-            "img": "/About/Skills/r.png"
-        }
-        
+{
+    "Programming and Databases Col":"#0077b5",
+    "Programming and Databases": [
+        { "name": "Python", "level": "Advanced", "img": "/About/Skills/python.png" },
+        { "name": "Java", "level": "Advanced", "img": "/About/Skills/java.png" },
+        { "name": "JavaScript", "level": "Intermediate", "img": "/About/Skills/js.png" },
+        { "name": "MySQL", "level": "Advanced", "img": "/About/Skills/mysql.png" },
+        { "name": "Cypher (Neo4j)", "level": "Intermediate", "img": "/About/Skills/sql.png" }
     ],
-    "Data and Visualisation Col":"#990000",
-    "Data and Visualisation": [
-        {
-            "name": "MS Excel",
-            "level": "Advanced",
-            "img": "/About/Skills/excel.png"
-        },
-        {
-            "name": "MySQL",
-            "level": "Advanced",
-            "img": "/About/Skills/sql.png"
-        },
-        {
-            "name": "Data Preprocessing",
-            "level": "Advanced",
-            "img": "/About/Skills/data_preprocessing.png"
-        },
-        {
-            "name": "Data Structures and Algorithms",
-            "level": "Intermediate",
-            "img": "/About/Skills/dsa.png"
-        },
-        {
-            "name": "Tableau",
-            "level": "Advanced",
-            "img": "/About/Skills/tableau.png"
-        },
-        {
-            "name": "Power BI",
-            "level": "Intermediate",
-            "img": "/About/Skills/powerbi.png"
-        }
-        
+    "Deep Learning / ML Col":"#990000",
+    "Deep Learning / ML": [
+        { "name": "PyTorch", "level": "Advanced", "img": "/About/Skills/dl.png" },
+        { "name": "Scikit-learn", "level": "Advanced", "img": "/About/Skills/ml.png" },
+        { "name": "Hugging Face", "level": "Advanced", "img": "/About/Skills/dl.png" },
+        { "name": "OpenCV", "level": "Intermediate", "img": "/About/Skills/ml.png" },
+        { "name": "Ultralytics YOLO", "level": "Advanced", "img": "/About/Skills/dl.png" }
     ],
-    "Machine Learning & AI Col":"rgb(248, 132, 0)",
-    "Machine Learning & AI": [
-        {
-            "name": "Machine Learning",
-            "level": "Advanced",
-            "img": "/About/Skills/ml.png"
-        },
-        {
-            "name": "Deep Learning",
-            "level": "Intermediate",
-            "img": "/About/Skills/dl.png"
-        }
-        
+    "LLM / GenAI Col":"rgb(248, 132, 0)",
+    "LLM / GenAI": [
+        { "name": "RAG", "level": "Advanced", "img": "/About/Skills/dl.png" },
+        { "name": "GraphRAG", "level": "Intermediate", "img": "/About/Skills/ml.png" },
+        { "name": "RAPTOR", "level": "Intermediate", "img": "/About/Skills/dl.png" },
+        { "name": "LangChain", "level": "Advanced", "img": "/About/Skills/python.png" },
+        { "name": "Vector Search", "level": "Advanced", "img": "/About/Skills/data_preprocessing.png" },
+        { "name": "Agent-based systems", "level": "Advanced", "img": "/About/Skills/ml.png" },
+        { "name": "Ollama", "level": "Intermediate", "img": "/About/Skills/dl.png" }
     ],
-    "Web and App Development Col":"black",
-    "Web and App Development": [
-        {
-            "name": "HTML",
-            "level": "Advanced",
-            "img": "/About/Skills/html.png"
-        },
-        {
-            "name": "CSS",
-            "level": "Advanced",
-            "img": "/About/Skills/css.png"
-        },
-        {
-            "name": "Flask",
-            "level": "Advanced",
-            "img": "/About/Skills/flask.png"
-        },
-        {
-            "name": "ReactJS",
-            "level": "Intermediate",
-            "img": "/About/Skills/reactjs.png"
-        },
-        {
-            "name": "NextJS",
-            "level": "Intermediate",
-            "img": "/About/Skills/nextjs.png"
-        },
-        {
-            "name": "Android Studio",
-            "level": "Intermediate",
-            "img": "/About/Skills/android.png"
-        },
-	{
-            "name": "Flutter",
-            "level": "Intermediate",
-            "img": "/About/Skills/flutter.png"
-        },
-        {
-            "name": "UI & UX",
-            "level": "Intermediate",
-            "img": "/About/Skills/uiux.png"
-        }
+    "ML Deployment Col":"black",
+    "ML Deployment": [
+        { "name": "MLOps", "level": "Advanced", "img": "/About/Skills/dl.png" },
+        { "name": "GCP", "level": "Intermediate", "img": "/About/Skills/ml.png" },
+        { "name": "MLFlow", "level": "Advanced", "img": "/About/Skills/data_preprocessing.png" },
+        { "name": "Docker", "level": "Intermediate", "img": "/About/Skills/ml.png" },
+        { "name": "FastAPI", "level": "Advanced", "img": "/About/Skills/flask.png" },
+        { "name": "DVC", "level": "Intermediate", "img": "/About/Skills/data_preprocessing.png" },
+        { "name": "Git", "level": "Advanced", "img": "/About/Skills/dsa.png" },
+        { "name": "AWS", "level": "Intermediate", "img": "/About/Skills/ml.png" }
     ]
 }
